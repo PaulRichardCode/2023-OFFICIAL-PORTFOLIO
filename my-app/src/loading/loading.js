@@ -1,6 +1,5 @@
 import React from "react";
 import "./loading.css";
-import ClipLoader from "react-spinners/ClipLoader";
 import HashLoader from "react-spinners/HashLoader";
 
 const Loading = () => {
