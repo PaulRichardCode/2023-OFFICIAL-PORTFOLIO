@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { ReactDOM } from "react";
 import Nav from "./nav/nav.jsx";
+
 import Loading from "./loading/loading.js";
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
       {loading ? (
         <Loading />
       ) : (
-        <div>
+        <div className="">
           <Nav />
         </div>
       )}
