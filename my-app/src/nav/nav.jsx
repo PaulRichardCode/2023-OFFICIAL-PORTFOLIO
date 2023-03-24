@@ -7,10 +7,10 @@ import "./nav.css";
 const Nav = () => {
   /* Functionality */
 
-  const [isVisible, setIsVisible] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
-  const handleToggleClick = () => {
-    setIsVisible(!isVisible);
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
   };
 
   /* Tailwind jsx */
@@ -33,7 +33,7 @@ const Nav = () => {
               Resume
             </button>
             <button
-              onClick={handleToggleClick}
+              onClick={toggleMenu}
               id="btn"
               data-dropdown-toggle="navbar-sticky"
               type="button"
@@ -57,7 +57,10 @@ const Nav = () => {
 
           {/* List MENU'S */}
           <div
-            class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+            className={`${
+              isOpen ? "block" : "hidden"
+            } md:block items-center justify-between w-full md:order-1 md:w-auto`}
+            /*  class=" hidden   " */
             id="navbar-sticky">
             <ul
               role={"none"}
