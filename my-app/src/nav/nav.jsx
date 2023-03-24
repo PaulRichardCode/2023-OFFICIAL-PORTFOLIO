@@ -60,7 +60,6 @@ const Nav = () => {
             className={`${
               isOpen ? "block" : "hidden"
             } md:block items-center justify-between w-full md:order-1 md:w-auto`}
-            /*  class=" hidden   " */
             id="navbar-sticky">
             <ul
               role={"none"}
