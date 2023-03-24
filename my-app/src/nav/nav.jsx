@@ -15,7 +15,7 @@ const Nav = () => {
 
   /* Tailwind jsx */
   return (
-    <div className="mb-20">
+    <div className="">
       <nav class="px-2 bg-gray-900/50 sm:px-4 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
           <a href="https://flowbite.com/" class="flex items-center">

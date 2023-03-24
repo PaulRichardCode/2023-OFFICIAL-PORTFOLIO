@@ -4,11 +4,17 @@ import Sunset from "../assets/sunset.mp4";
 
 const Home = () => {
   return (
-    <div className="relative w-full mb-24">
-      {/* <video autoPlay muted loop src={Sunset} className="opacity-20 "></video> */}
-      <div className="text-white z-10 absolute left-1/2 top-1/2 text-2xl">
-        <h1>This is the Home</h1>
-        <p>Lets go bro</p>
+    <div className="relative w-full bg-gray-900/50 py-24">
+      <video
+        autoPlay
+        muted
+        loop
+        src={Sunset}
+        className="opacity-5 bg-transparent"></video>
+      <div className="text-white z-10 absolute top-32 left-52 text-2xl">
+        <p className="text-base text-cyan-300 py-16`">hi my name is</p>
+        <h1>PAUL RICHARD,</h1>
+        <h1>WEB DEVELOPER</h1>
       </div>
     </div>
   );
