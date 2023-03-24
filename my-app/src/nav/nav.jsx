@@ -1,9 +1,19 @@
 import React from "react";
 import Logo from "../assets/logo.png";
+import { useState } from "react";
 
 import "./nav.css";
 
 const Nav = () => {
+  /* Functionality */
+
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleToggleClick = () => {
+    setIsVisible(!isVisible);
+  };
+
+  /* Tailwind jsx */
   return (
     <div>
       <nav class="px-2 bg-neutral-900 sm:px-4 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
@@ -23,8 +33,9 @@ const Nav = () => {
               Resume
             </button>
             <button
+              onClick={handleToggleClick}
               id="btn"
-              data-collapse-toggle="navbar-sticky"
+              data-dropdown-toggle="navbar-sticky"
               type="button"
               class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
               aria-controls="navbar-sticky"
@@ -43,14 +54,18 @@ const Nav = () => {
               </svg>
             </button>
           </div>
+
+          {/* List MENU'S */}
           <div
-            class=" items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+            class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
             id="navbar-sticky">
-            <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 ">
+            <ul
+              role={"none"}
+              class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 ">
               <li>
                 <a
                   href="#"
-                  class="block py-2 pl-3 pr-4 text-cyan-300 bg-blue-700 rounded md:bg-transparent  md:p-0 "
+                  class="block py-2 pl-3 pr-4 text-cyan-300 bg-blue-700 rounded md:bg-transparent md:p-0 "
                   aria-current="page">
                   <span className="text-cyan-300">01.</span> Home
                 </a>
