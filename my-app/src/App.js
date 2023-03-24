@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Nav from "./nav/nav.jsx";
-
+import Home from "./home/home.jsx";
 import Loading from "./loading/loading.js";
 
 const App = () => {
@@ -17,6 +17,7 @@ const App = () => {
       ) : (
         <div className="">
           <Nav />
+          <Home />
         </div>
       )}
     </div>

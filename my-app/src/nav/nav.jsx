@@ -1,8 +1,8 @@
 import React from "react";
 import Logo from "../assets/logo.png";
 import { useState } from "react";
-
 import "./nav.css";
+import Home from "../home/home";
 
 const Nav = () => {
   /* Functionality */
@@ -16,7 +16,7 @@ const Nav = () => {
   /* Tailwind jsx */
   return (
     <div>
-      <nav class="px-2 bg-neutral-900 sm:px-4 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+      <nav class="px-2 bg-gray-900/50 sm:px-4 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
           <a href="https://flowbite.com/" class="flex items-center">
             <img
@@ -59,15 +59,15 @@ const Nav = () => {
           <div
             className={`${
               isOpen ? "block" : "hidden"
-            } md:block items-center justify-between w-full md:order-1 md:w-auto`}
+            } md:block items-center justify-between w-full md:order-1 md:w-auto bg-gray-900/60 rounded-3xl`}
             id="navbar-sticky">
             <ul
               role={"none"}
               class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 ">
               <li>
                 <a
-                  href="#"
-                  class="block py-2 pl-3 pr-4 text-cyan-300 bg-blue-700 rounded md:bg-transparent md:p-0 "
+                  href={Home}
+                  class="block py-2 pl-3 cursor-pointer pr-4 text-cyan-300 bg-blue-700 rounded md:bg-transparent md:p-0 "
                   aria-current="page">
                   <span className="text-cyan-300">01.</span> Home
                 </a>
