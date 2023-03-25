@@ -14,11 +14,12 @@ const Home = () => {
         className="opacity-5 bg-transparent"></video>
       <div className="text-white my-24 z-10 absolute top-32 left-52 flex justify-between">
         <div>
-          <p className="text-base text-cyan-300/90 mb-6 ">hi my name is</p>
-          <h1 className="text-7xl mb-6 text-gray-300">PAUL,</h1>
+          <p className="text-normal text-cyan-300/90 mb-6 ">Hi my name is</p>
+          <h1 className="text-7xl mb-6 text-gray-300">PAUL RICHARD.</h1>
           <h1 className="text-7xl mb-6 text-gray-300">WEB DEVELOPER</h1>
           <p className="text-base text-cyan-300/90 mb-6 ">nice to meet you</p>
         </div>
+        {/* handshake image */}
         <span>
           <img src={Handshake} alt="#" className="opacity-75 pl-16" />
         </span>
