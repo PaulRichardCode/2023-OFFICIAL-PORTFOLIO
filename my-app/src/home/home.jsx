@@ -16,7 +16,7 @@ const Home = () => {
       {/* Home */}
       <div className="text-white my-24 z-10 absolute top-24 left-52 md:flex md:items-center md:justify-center text-left">
         <div className="">
-          <p className="text-lg font-medium pl-1 text-cyan-300/90 mb-6 ">
+          <p className="text-lg font-medium pl-1 text-cyan-300/80 mb-5 ">
             Hi, my name is
           </p>
           <h1 className="text-7xl mb-6 text-gray-300 font-bold">
