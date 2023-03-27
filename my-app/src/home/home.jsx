@@ -33,7 +33,8 @@ const Home = () => {
           <a
             href="#"
             type="button"
-            class="text-cyan-300 border border-cyan-300 hover:bg-red-50/10 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded text-sm px-16 py-5  text-center mr-3 md:mr-0 ">
+            id="contact"
+            class="text-cyan-300 text-2xl border border-cyan-300 hover:bg-red-50/10 focus:ring-4 focus:outline-none focus:ring-blue-300 font-light rounded px-16 pt-3 pb-2  text-center mr-3 md:mr-0 ">
             Contact Me!
           </a>
         </div>

@@ -7,7 +7,8 @@ body {
   /*  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif; */
-  font-family: "viga";
+  font-family: "calibre", "poppins", "viga", Cambria, Cochin, Georgia, Times,
+    "Times New Roman", serif;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -17,5 +18,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+#contact {
+  letter-spacing: 0.3rem;
 }
 /* width and height of the scrollbar */
