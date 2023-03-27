@@ -26,7 +26,7 @@ const Home = () => {
             I build things for the web.
           </h1>
           <p className="text-lg pl-1 text-gray-400 font-medium mb-6 w-4/5">
-            I’m a software engineer specializing in building (and occasionally
+            I’m a Front-End Developer specializing in building (and occasionally
             designing) exceptional digital experiences. Currently, I’m focused
             on building accessible services for people around the world.
           </p>
