@@ -6,24 +6,23 @@ import Handshake from "../assets/shakinghands.png";
 const Home = () => {
   return (
     <div className="relative w-full bg-gray-900/50 ">
-      <div>
-        <video
-          autoPlay
-          muted
-          loop
-          src={Black}
-          className="opacity-5 py-16 w-full "></video>
-      </div>
+      <video
+        autoPlay
+        muted
+        loop
+        src={Black}
+        className="opacity-5 py-16 w-full min-h-screen"></video>
+
       {/* Home */}
-      <div className="text-white md:my-24 z-10 absolute top-24 md:left-52 left-5 md:flex md:items-center md:justify-center text-left">
+      <div className="text-white md:my-24 z-10 absolute top-24 md:left-32 lg:left-52 left-5 md:flex md:items-center md:justify-center text-left">
         <div className="">
           <p className="text-lg font-medium pl-1 text-cyan-300/80 mb-5 ">
             Hi, my name is
           </p>
-          <h1 className="md:text-7xl text-5xl mb-6 text-gray-300 font-bold">
+          <h1 className="md:text-7xl text-5xl mb-6 text-gray-300 md:font-bold font-semibold">
             Paul Richard.
           </h1>
-          <h1 className="text-6xl mb-6 text-gray-400 font-bold">
+          <h1 className="md:text-6xl text-4xl mb-6 text-gray-400 font-semibold md:font-bold">
             I build things for the web.
           </h1>
           <p className="text-lg pl-1 text-gray-400 font-medium mb-6 w-4/5">

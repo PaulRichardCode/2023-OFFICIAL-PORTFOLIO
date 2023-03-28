@@ -18,7 +18,7 @@ const Nav = () => {
     <div className="">
       <nav class="px-2 bg-gray-900/50 sm:px-4 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
         <div class="container flex flex-wrap items-center justify-between mx-auto">
-          <a href="https://flowbite.com/" class="flex items-center">
+          <a href="#" class="flex items-center">
             <img
               src={Logo}
               width={70}
@@ -29,7 +29,7 @@ const Nav = () => {
           <div class="flex md:order-2">
             <button
               type="button"
-              class="text-cyan-300 border border-cyan-300 hover:bg-red-50/10 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded text-sm px-5 pt-2.5 pb-2  text-center mr-3 md:mr-0 ">
+              class="text-cyan-300 border tracking-widest border-cyan-300 hover:bg-red-50/10 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded text-sm px-5 pt-2.5 pb-2  text-center mr-3 md:mr-0 ">
               Resume
             </button>
             {/* responsive button */}
