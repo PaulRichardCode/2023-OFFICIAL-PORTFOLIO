@@ -15,8 +15,8 @@ const Home = () => {
 
       {/* Home */}
 
-      <div className="text-white md:my-24  z-10 absolute md:top-24 top-32 md:left-32 lg:left-52 left-5 md:flex md:items-center md:justify-center text-left">
-        <div className="lg:basis-4/5 md:basis-2/3 md:mb-0 mb-16">
+      <div className="text-white md:my-24 z-10 absolute md:top-24 top-32 md:left-32 lg:left-52 left-5 md:flex md:items-center md:justify-center text-left">
+        <div className="lg:basis-4/5 md:basis-2/3 md:mb-0 mb-8 md:w-full w-5/6">
           <p className="md:text-lg text-base md:font-normal font-normal pl-1 text-cyan-300/90 md:mb-5 mb-4 tracking-wide ">
             Hi, my name is
           </p>
@@ -45,7 +45,7 @@ const Home = () => {
         </div>
         {/* handshake image */}
         <div className="w-full lg:basis-1/2 md:basis-1/2">
-          <img src={Handshake} alt="#" className="opacity-75 md:w-96 w-2/3" />
+          <img src={Handshake} alt="#" className="opacity-75 md:w-96 w-1/2" />
         </div>
       </div>
     </div>
