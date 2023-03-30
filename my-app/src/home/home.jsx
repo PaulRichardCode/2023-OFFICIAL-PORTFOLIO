@@ -15,7 +15,7 @@ const Home = () => {
 
       {/* Home */}
 
-      <div className="text-white md:my-24 z-10 absolute md:top-0 top-1/4 md:left-32 lg:left-52 left-5 md:flex md:items-center md:justify-center text-left">
+      <div className="text-white md:my-24 z-10 absolute md:top-24 top-1/4 md:left-32 lg:left-52 left-5 md:flex md:items-center md:justify-center text-left">
         <div className="">
           <p className="md:text-lg text-base md:font-medium font-normal pl-1 text-cyan-300 md:mb-5 mb-4 tracking-wide ">
             Hi, my name is
@@ -44,7 +44,7 @@ const Home = () => {
           </a>
         </div>
         {/* handshake image */}
-        <div className="w-full ">
+        <div className="w-full lg:">
           <img src={Handshake} alt="#" className="opacity-75 w-96" />
         </div>
       </div>
