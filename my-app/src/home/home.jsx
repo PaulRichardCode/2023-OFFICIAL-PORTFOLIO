@@ -14,7 +14,6 @@ const Home = () => {
         className="opacity-5 py-16 w-full min-h-screen"></video>
 
       {/* Home */}
-      {/* sqw */}
 
       <div className="text-white md:my-24 z-10 absolute md:top-0 top-1/4 md:left-32 lg:left-52 left-5 md:flex md:items-center md:justify-center text-left">
         <div className="lg:basis-11/12 md:basis-11/12">
