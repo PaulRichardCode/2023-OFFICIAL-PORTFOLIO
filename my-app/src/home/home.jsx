@@ -23,7 +23,7 @@ const Home = () => {
           <h1 className="lg:text-7xl md:text-5xl text-4xl md:mb-6 mb-3 text-gray-300 md:font-bold font-semibold">
             Paul Richard.
           </h1>
-          <h1 className="lg:text-6xl md:text-4xl text-3xl md:mb-6 mb-5 text-gray-400 font-semibold md:font-semibold">
+          <h1 className="lg:text-6xl md:text-4xl text-3xl md:mb-6 mb-5 text-gray-400 font-semibold md:font-bold">
             I build things for the web.
           </h1>
           <p className="md:text-lg text-sm pl-1 text-gray-400 md:font-medium font-normal md:mb-6 mb-10 w-4/5">
@@ -44,7 +44,7 @@ const Home = () => {
           </a>
         </div>
         {/* handshake image */}
-        <div className="w-full lg:">
+        <div className="w-full lg:basis-1/2">
           <img src={Handshake} alt="#" className="opacity-75 w-96" />
         </div>
       </div>
