@@ -17,7 +17,7 @@ const App = () => {
       {loading ? (
         <Loading />
       ) : (
-        <div className="">
+        <div>
           <Nav />
           <Link />
           <Home />

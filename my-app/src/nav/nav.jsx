@@ -68,10 +68,10 @@ const Nav = () => {
               class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 ">
               <li>
                 <a
-                  href={Home}
+                  href="#"
                   class="block py-2 pl-3 cursor-pointer pr-4 text-cyan-300 bg-blue-700 rounded md:bg-transparent md:p-0 "
                   aria-current="page">
-                  <span className="text-cyan-300">01.</span> Home
+                  <span className="text-cyan-300">01.</span> About
                 </a>
               </li>
               <li>
