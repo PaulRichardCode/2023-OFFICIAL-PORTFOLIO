@@ -23,10 +23,10 @@ const Home = () => {
           <h1 className="lg:text-7xl md:text-5xl text-4xl md:mb-6 mb-3 text-gray-300 md:font-bold font-semibold">
             Paul Richard.
           </h1>
-          <h1 className="lg:text-6xl md:text-4xl text-4xl md:mb-6 mb-5 text-gray-400 font-semibold md:font-bold">
+          <h1 className="lg:text-6xl md:text-4xl text-4xl md:mb-6 mb-5 text-gray-400 font-semibold lg:mb-10 md:font-bold">
             I build things for the web.
           </h1>
-          <p className="md:text-lg text-sm pl-1 text-gray-400/80 md:font-medium font-normal md:mb-6 mb-10 md:w-4/5">
+          <p className="md:text-lg text-sm pl-1 text-gray-400/80 md:font-medium font-normal md:mb-6 lg:mb-12 mb-10 md:w-4/5">
             I’m a Front-End Developer specializing in building (and occasionally
             designing) exceptional digital experiences. Currently, I’m focused
             on building accessible services for people around the{" "}
