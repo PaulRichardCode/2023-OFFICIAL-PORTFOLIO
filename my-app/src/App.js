@@ -3,6 +3,7 @@ import Nav from "./nav/nav.jsx";
 import Home from "./home/home.jsx";
 import Loading from "./loading/loading.js";
 import "./App.css";
+import Link from "./link/link";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -18,6 +19,7 @@ const App = () => {
       ) : (
         <div className="">
           <Nav />
+          <Link />
           <Home />
         </div>
       )}
