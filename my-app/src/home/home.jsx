@@ -5,7 +5,7 @@ import Handshake from "../assets/shakinghands.png";
 
 const Home = () => {
   return (
-    <div className="relative w-full bg-gray-900/50 ">
+    <div className="relative w-full bg-gray-900/30  ">
       <video
         autoPlay
         muted

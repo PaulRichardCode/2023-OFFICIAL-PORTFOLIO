@@ -4,6 +4,7 @@ import Home from "./home/home.jsx";
 import Loading from "./loading/loading.js";
 import "./App.css";
 import Link from "./link/link";
+import About from "./about/about";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -21,6 +22,7 @@ const App = () => {
           <Nav />
           <Link />
           <Home />
+          <About />
         </div>
       )}
     </div>
