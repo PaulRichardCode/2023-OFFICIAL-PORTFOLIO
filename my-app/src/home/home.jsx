@@ -5,13 +5,13 @@ import Handshake from "../assets/shakinghands.png";
 
 const Home = () => {
   return (
-    <div className="relative w-full bg-gray-900/30  ">
+    <div className="relative w-full  max-h-screen ">
       <video
         autoPlay
         muted
         loop
         src={Black}
-        className="opacity-5 py-16 w-full min-h-screen"></video>
+        className="opacity-5 py-16 min-w-full max-h-1/2"></video>
 
       {/* Home */}
 

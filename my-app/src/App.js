@@ -18,7 +18,7 @@ const App = () => {
       {loading ? (
         <Loading />
       ) : (
-        <div>
+        <div className="bg-gray-900/30">
           <Nav />
           <Link />
           <Home />
