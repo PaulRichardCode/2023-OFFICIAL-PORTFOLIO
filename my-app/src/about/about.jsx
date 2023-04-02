@@ -9,7 +9,7 @@ const About = () => {
         <span className="w-1/5 bg-gray-300/70 h-px ml-8"></span>
       </h1>
       <div className="flex items-center justify-around">
-        <div className="">
+        <div className="opacity-90">
           <img src={Handy} alt="pointing hand" />
         </div>
         <div className="lg:w-1/2 md:w-2/3 ">
