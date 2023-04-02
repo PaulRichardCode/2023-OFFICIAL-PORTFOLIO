@@ -48,7 +48,11 @@ const Home = () => {
         </div>
         {/* handshake image */}
         <div className="w-full lg:basis-1/2 md:basis-1/2">
-          <img src={Handshake} alt="#" className="opacity-90 md:w-96 w-1/2" />
+          <img
+            src={Handshake}
+            alt="#"
+            className="opacity-80 cursor-pointer hover:transition-opacity hover:opacity-100 md:w-96 w-1/2"
+          />
         </div>
       </div>
     </div>
