@@ -3,16 +3,21 @@ import Handy from "../assets/handpoint.png";
 
 const About = () => {
   return (
-    <div className="my-20 w-2/3 mx-auto items-center">
-      <h1 className="text-gray-300 text-3xl mb-16 mr-8 font-semibold tracking-tight flex items-center justify-end">
-        <span className="text-cyan-300 text-2xl pr-4">01.</span> About me{" "}
-        <span className="w-1/4 bg-gray-300 h-px ml-8"></span>
-      </h1>
-      <div className="flex">
-        <div className="basis-1/2">
+    <div className="my-20 w-2/3 mx-auto ">
+      <div className="flex justify-around">
+        <div></div>
+        <div className="lg:w-1/2 md:w-2/3 ">
+          <h1 className="text-gray-300 text-3xl mb-16 mr-8 font-semibold tracking-tight w-5/6 flex items-center justify-center">
+            <span className="text-cyan-300 text-2xl pr-4">01.</span> About me{" "}
+            <span className="w-44 bg-gray-300/70 h-px ml-8"></span>
+          </h1>
+        </div>
+      </div>
+      <div className="flex items-center justify-around">
+        <div className="">
           <img src={Handy} alt="pointing hand" />
         </div>
-        <div className="basis-1/2">
+        <div className="lg:w-1/2 md:w-2/3 ">
           <p className="text-white ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex numquam
             illum incidunt unde consequatur recusandae consectetur, natus
