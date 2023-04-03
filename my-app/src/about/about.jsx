@@ -1,6 +1,7 @@
 import React from "react";
 import Handy from "../assets/handpoint.png";
-import { FiAward } from "react-icons/fi";
+import { FiAward, FiFolder } from "react-icons/fi";
+import { FiUser } from "react-icons/fi";
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
         </h1>
       </div>
 
-      <div className="flex items-center justify-around">
+      <div className="flex justify-around">
         <div className="opacity-90">
           <img
             src={Handy}
@@ -20,12 +21,23 @@ const About = () => {
             className="cursor-pointer opacity-80 hover:opacity-100 hover:transition-opacity"
           />
         </div>
-        <div className="lg:w-1/2 md:w-2/3 text-white">
-          <div className="flex w-full">
-            <div className="">
-              <FiAward className="text-7xl" />
-              <h2>Experience</h2>
-              <p>3+ years of working</p>
+        {/* Experience client and projects completed */}
+        <div className="lg:w-1/2 md:w-2/3 flex flex-col py-6 justify-around text-gray-300">
+          <div className="flex justify-between w-full">
+            <div className="flex flex-col justify-around py-8 items-center rounded-2xl bg-gray-700/10 w-40 h-40">
+              <FiAward className="text-3xl mb-4 text-cyan-300" />
+              <h2 className="text-lg">Experience</h2>
+              <p className="text-xs text-gray-300/50">3+ years of working</p>
+            </div>
+            <div className="flex flex-col justify-around py-8 items-center rounded-2xl bg-gray-700/10 w-40 h-40">
+              <FiUser className="text-3xl mb-4 text-cyan-300" />
+              <h2 className="text-lg">Clients</h2>
+              <p className="text-xs text-gray-300/50">50+ Worldwide</p>
+            </div>
+            <div className=" flex flex-col justify-around py-8 items-center rounded-2xl bg-gray-700/10 w-40 h-40">
+              <FiFolder className="text-3xl mb-4 text-cyan-300" />
+              <h2 className="text-lg">Projects</h2>
+              <p className="text-xs text-gray-300/50">25+ Completed</p>
             </div>
           </div>
           <p>
