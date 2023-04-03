@@ -19,20 +19,21 @@ const About = () => {
             className="cursor-pointer opacity-80 hover:opacity-100 hover:transition-opacity"
           />
         </div>
-        <div className="lg:w-1/2 md:w-2/3 ">
-          <p className="text-white">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex numquam
-            illum incidunt unde consequatur recusandae consectetur, natus
-            praesentium ratione, odit debitis impedit harum maiores ad beatae
-            sapiente reiciendis autem dolorem. Consequatur iste veritatis ad
-            rerum magnam ducimus quaerat quos modi maiores at voluptatem,
-            aperiam quasi omnis perspiciatis, eaque veniam officia voluptate
-            quidem facilis. Exercitationem temporibus pariatur earum numquam
-            consequuntur nam. Nisi inventore neque, dolorem dicta deleniti
-            voluptatibus nam obcaecati incidunt? Distinctio dolorum impedit
-            omnis laudantium, tempore eaque at. Dolores doloribus sapiente
-            explicabo eligendi dignissimos quam ducimus ab esse, numquam et?
+        <div className="lg:w-1/2 md:w-2/3 text-white">
+          <p>
+            Hello! My name is Richard and I enjoy creating things that live on
+            the internet. My interest in web development started back in 2019
+            when I decided to try editing custom Tumblr themes — turns out
+            hacking together a custom reblog button taught me a lot about HTML &
+            CSS!{" "}
           </p>
+          Consequatur iste veritatis ad rerum magnam ducimus quaerat quos modi
+          maiores at aperiam quasi omnis perspiciatis, eaque veniam officia
+          voluptate quidem facilis. Exercitationem temporibus pariatur earum
+          numquam consequuntur nam. Nisi inventore neque, dolorem dicta deleniti
+          voluptatibus nam obcaecati incidunt? Distinctio dolorum impedit omnis
+          laudantium, tempore eaque at. Dolores doloribus sapiente explicabo
+          eligendi dignissimos quam ducimus ab esse, numquam et?
         </div>
       </div>
     </div>
