@@ -23,7 +23,7 @@ const About = () => {
         </div>
         {/* Experience client and projects completed */}
         <div className="lg:w-1/2 md:w-2/3 flex flex-col py-6 justify-around text-gray-300">
-          <div className="flex justify-between w-full">
+          <div className="flex md:flex-row flex-col justify-between w-full">
             <div className="flex flex-col justify-around py-8 items-center rounded-2xl bg-gray-700/10 w-40 h-40">
               <FiAward className="text-3xl mb-4 text-cyan-300" />
               <h2 className="text-lg">Experience</h2>
