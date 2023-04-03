@@ -1,5 +1,6 @@
 import React from "react";
 import Handy from "../assets/handpoint.png";
+import { FiAward } from "react-icons/fi";
 
 const About = () => {
   return (
@@ -20,6 +21,13 @@ const About = () => {
           />
         </div>
         <div className="lg:w-1/2 md:w-2/3 text-white">
+          <div className="flex w-full">
+            <div className="">
+              <FiAward className="text-7xl" />
+              <h2>Experience</h2>
+              <p>3+ years of working</p>
+            </div>
+          </div>
           <p>
             Hello! My name is Richard and I enjoy creating things that live on
             the internet. My interest in web development started back in 2019
@@ -27,13 +35,6 @@ const About = () => {
             hacking together a custom reblog button taught me a lot about HTML &
             CSS!{" "}
           </p>
-          Consequatur iste veritatis ad rerum magnam ducimus quaerat quos modi
-          maiores at aperiam quasi omnis perspiciatis, eaque veniam officia
-          voluptate quidem facilis. Exercitationem temporibus pariatur earum
-          numquam consequuntur nam. Nisi inventore neque, dolorem dicta deleniti
-          voluptatibus nam obcaecati incidunt? Distinctio dolorum impedit omnis
-          laudantium, tempore eaque at. Dolores doloribus sapiente explicabo
-          eligendi dignissimos quam ducimus ab esse, numquam et?
         </div>
       </div>
     </div>
