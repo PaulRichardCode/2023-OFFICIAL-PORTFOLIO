@@ -51,7 +51,7 @@ const Home = () => {
           <img
             src={Handshake}
             alt="#"
-            className="opacity-80 cursor-pointer hover:transition-opacity hover:opacity-100 md:w-96 w-1/2"
+            className="opacity-80 cursor-pointer hover:transition-opacity12 hover:opacity-100 md:w-96 w-1/2"
           />
         </div>
       </div>

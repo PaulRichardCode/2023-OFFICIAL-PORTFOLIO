@@ -40,6 +40,7 @@ const About = () => {
               <p className="text-xs text-gray-300/50">25+ Completed</p>
             </div>
           </div>
+          {/* about me text */}
           <p>
             Hello! My name is Richard and I enjoy creating things that live on
             the internet. My interest in web development started back in 2019
