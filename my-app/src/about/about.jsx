@@ -53,7 +53,7 @@ const About = () => {
             <p className="mb-6">
               {" "}
               I am always up to date with the latest trends and practices in web
-              development
+              development.
             </p>
             <p>
               I’ve had the privilege of working at an
