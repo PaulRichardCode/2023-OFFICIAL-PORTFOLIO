@@ -56,23 +56,26 @@ const About = () => {
               development.
             </p>
             <p>
-              I’ve had the privilege of working at an
+              I’ve had the privilege of working at an{" "}
               <a
                 href="https://us.mullenlowe.com/"
+                target="_blank"
                 className="text-cyan-300 hover:underline hover:transition-all">
-                {" "}
                 advertising agency
               </a>
               , a{" "}
               <a
                 href="https://starry.com/"
+                target="_blank"
                 className="text-cyan-300 hover:underline hover:transition-all">
                 start-up
               </a>
+              , a{" "}
               <a
                 href="https://dangote.com/"
+                target="_blank"
                 className="text-cyan-300 hover:underline hover:transition-all">
-                , a huge corporation.
+                huge corporation.
               </a>
             </p>
           </div>
