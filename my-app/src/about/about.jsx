@@ -48,7 +48,8 @@ const About = () => {
               Hello! My name is Richard and I would describe myself as a highly
               skilled professional with a passion for creating beautiful and
               functional user interfaces. I have a deep understanding of
-              front-end technologies such as HTML, CSS, and JavaScript.
+              front-end technologies such as HTML, CSS, JavaScript, React and
+              Typescript.
             </p>
             <p className="mb-6">
               {" "}
