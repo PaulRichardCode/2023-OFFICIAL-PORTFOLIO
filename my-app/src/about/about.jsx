@@ -57,7 +57,7 @@ const About = () => {
               development.
             </p>
             <p>
-              I’ve had the privilege of working at an{" "}
+              I’ve had privilege of working at an{" "}
               <a
                 href="https://us.mullenlowe.com/"
                 target="_blank"
