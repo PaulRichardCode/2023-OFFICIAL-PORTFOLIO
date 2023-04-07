@@ -18,7 +18,7 @@ const Nav = () => {
   /* Tailwind jsx */
   return (
     <div className="">
-      <Router>
+      <BrowserRouter>
         <nav class="px-2 sm:py-0 py-2 bg-gray-900/50 sm:px-4 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
           <div class="container flex flex-wrap items-center justify-between mx-auto ">
             {/* logo */}
@@ -75,7 +75,8 @@ const Nav = () => {
                       href
                       class="cursor-pointer block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-cyan-300 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 "
                       aria-current="page">
-                      <span className="text-cyan-300">01.</span> About
+                      <span className="text-cyan-300">01.</span>{" "}
+                      <Link to={"/about"}> About</Link>
                     </a>
                   </Link>
                 </li>
@@ -104,10 +105,11 @@ const Nav = () => {
             </div>
           </div>
         </nav>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/experience" component={Experience} />
-      </Router>
+        <Routes>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 };
