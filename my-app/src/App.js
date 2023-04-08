@@ -5,6 +5,8 @@ import Loading from "./loading/loading.js";
 import "./App.css";
 import Link from "./link/link";
 import About from "./about/about";
+import { BrowserRouter } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -14,18 +16,20 @@ const App = () => {
   }, []);
 
   return (
-    <div>
-      {loading ? (
-        <Loading />
-      ) : (
-        <div className="bg-gray-900/30">
-          <Nav />
-          <Link />
-          <Home />
-          <About />
-        </div>
-      )}
-    </div>
+    <BrowserRouter>
+      <div>
+        {loading ? (
+          <Loading />
+        ) : (
+          <div className="bg-gray-900/30">
+            <Nav />
+            <Link />
+            <Home />
+            <About />
+          </div>
+        )}
+      </div>
+    </BrowserRouter>
   );
 };
 
