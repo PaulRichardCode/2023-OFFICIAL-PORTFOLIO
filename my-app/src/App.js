@@ -6,7 +6,6 @@ import "./App.css";
 import Link from "./link/link";
 import About from "./about/about";
 import { BrowserRouter } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
