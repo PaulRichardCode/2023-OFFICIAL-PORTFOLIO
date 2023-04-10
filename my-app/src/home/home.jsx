@@ -33,10 +33,11 @@ const Home = () => {
             <a
               href="https://www.world.com/"
               target={"_blank"}
-              className="text-cyan-300 cursor-pointer">
+              className="text-cyan-300 cursor-pointer hover:underline">
               {" "}
-              world.
+              world
             </a>
+            .
           </p>
           <a
             href="#"
