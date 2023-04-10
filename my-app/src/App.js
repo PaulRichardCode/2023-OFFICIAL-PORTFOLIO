@@ -24,7 +24,6 @@ const App = () => {
             <Nav />
             <Link />
             <Home />
-
             <About />
           </div>
         )}
