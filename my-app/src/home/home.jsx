@@ -40,7 +40,7 @@ const Home = () => {
             .
           </p>
 
-          <div className="md:bg-red-200">
+          <div>
             <a
               href="#"
               type="button"
