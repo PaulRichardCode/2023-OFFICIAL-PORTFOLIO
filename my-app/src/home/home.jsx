@@ -11,7 +11,7 @@ const Home = () => {
         muted
         loop
         src={Black}
-        className="opacity-5 py-16 min-w-full max-h-1/2"></video>
+        className="md:opacity-5 opacity-0 py-16 min-w-full max-h-1/2"></video>
 
       {/* Home */}
 
@@ -51,11 +51,11 @@ const Home = () => {
           </div>
         </div>
         {/* handshake image */}
-        <div className="w-full lg:basis-1/2 md:basis-1/2">
+        <div className="w-full md:opacity-80 opacity-40 lg:basis-1/2 md:basis-1/2 md:flex-none flex justify-center">
           <img
             src={Handshake}
             alt="#"
-            className="opacity-80 cursor-pointer hover:transition-opacity12 hover:opacity-100 md:w-96 w-1/2"
+            className="opacity-80 cursor-pointer hover:transition-opacity-2 hover:opacity-100 md:w-96 w-1/2"
           />
         </div>
       </div>

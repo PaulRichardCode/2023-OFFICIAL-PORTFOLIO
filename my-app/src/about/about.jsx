@@ -8,7 +8,7 @@ const About = () => {
     <div className="md:my-20 md:w-3/4 md:mx-auto mx-5 my-96">
       <div className="md:pl-44">
         <h1 className="text-gray-300 md:text-3xl text-2xl mb-10 mr-8 w-11/12 font-semibold tracking-tight flex items-center md:justify-end justify-center">
-          <span className="text-cyan-300 md:text-2xl text-1xl pr-4">01.</span>{" "}
+          <span className="text-cyan-300 md:text-2xl text-xl pr-4">01.</span>{" "}
           About me{" "}
           <span className="md:w-72 md:bg-gray-300/70 md:h-px md:ml-8 md:opacity-40 "></span>
         </h1>
@@ -17,7 +17,7 @@ const About = () => {
       {/* image */}
 
       <div className="md:flex md:justify-around md:items-start">
-        <div className="md:opacity-90 opacity-20 md:left-0 left-1/2 mt-32 top-4/5 md:rotate-45 -rotate-180 md:relative absolute">
+        <div className="md:opacity-90 opacity-20 md:left-0 md:-top-16 left-1/2 mt-32 top-4/5 md:rotate-45 -rotate-180 md:relative absolute">
           <img
             src={Handy}
             alt="pointing hand"
@@ -45,18 +45,18 @@ const About = () => {
           </div>
           {/* about me text */}
           <div className="text-gray-400/80">
-            <p className="mb-6">
+            <p className="md:mb-6 mb-2 text-sm md:text-base">
               I would describe myself as a highly skilled professional with a
               passion for creating beautiful and functional user interfaces. I
               have a deep understanding of front-end technologies such as HTML,
               CSS, JavaScript, React and Typescript.
             </p>
-            <p className="mb-6">
+            <p className="md:mb-6 mb-2 text-sm md:text-base">
               {" "}
               I am always up to date with the latest trends and practices in web
               development.
             </p>
-            <p>
+            <p className="md:mb-6 mb-2 text-sm md:text-base">
               I’ve had the privilege of working at an{" "}
               <a
                 href="https://us.mullenlowe.com/"
