@@ -5,7 +5,7 @@ import { FiUser } from "react-icons/fi";
 
 const About = () => {
   return (
-    <div className="md:my-20 w-3/4 mx-auto ">
+    <div className="md:my-20 md:w-3/4 md:mx-auto mx-5">
       <div className="pl-44">
         <h1 className="text-gray-300 text-3xl mb-10 mr-8 w-11/12 font-semibold tracking-tight flex items-center justify-end">
           <span className="text-cyan-300 text-2xl pr-4">01.</span> About me{" "}
@@ -15,7 +15,7 @@ const About = () => {
 
       {/* image */}
 
-      <div className="flex justify-around items-start">
+      <div className="md:flex md:justify-around md:items-start">
         <div className="opacity-90">
           <img
             src={Handy}
@@ -25,7 +25,7 @@ const About = () => {
         </div>
         {/* Experience client and projects completed */}
         <div className="lg:w-1/2 md:w-2/3 flex flex-col py-6 justify-around  text-gray-300">
-          <div className="flex md:flex-row flex-col justify-between w-full mb-10">
+          <div className="flex md:flex-row flex-wrap md:mx-0 gap-5 md:justify-between justify-start w-full mb-10">
             <div className="flex flex-col justify-around py-8 items-center rounded-2xl bg-gray-700/10 w-40 h-40">
               <FiAward className="text-3xl mb-4 text-cyan-300" />
               <h2 className="text-base font-medium">Experience</h2>
