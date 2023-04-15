@@ -14,7 +14,7 @@ const About = () => {
         </h1>
       </div>
 
-      {/* image */}
+      {/* imag*/}
 
       <div className="md:flex md:justify-around md:items-start">
         <div className="md:opacity-90 opacity-20 md:left-0 md:-top-20 left-1/2 mt-32 top-4/5 md:rotate-45 -rotate-180 md:relative absolute">
