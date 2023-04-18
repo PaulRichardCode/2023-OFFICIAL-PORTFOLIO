@@ -5,7 +5,7 @@ import { FiUser } from "react-icons/fi";
 
 const About = () => {
   return (
-    <div className="md:my-20 md:w-3/4 md:mx-auto mx-5 my-96">
+    <div className="md:my-20 md:w-3/4 md:mx-auto mx-3  my-96">
       <div className="md:pl-44">
         <h1 className="text-gray-300 md:text-3xl text-2xl mb-10 mr-8 w-11/12 font-semibold tracking-tight flex items-center md:justify-end justify-center">
           <span className="text-cyan-300 md:text-2xl text-xl pr-4">01.</span>{" "}
@@ -25,26 +25,26 @@ const About = () => {
           />
         </div>
         {/* Experience client and projects completed */}
-        <div className="lg:w-1/2 md:w-2/3 flex flex-col py-6 justify-around  text-gray-300">
-          <div className="flex md:flex-row flex-wrap md:mx-0 md:gap-0 gap-3 md:justify-between justify-start w-full mb-10">
-            <div className="flex flex-col justify-around py-8 items-center relative rounded-2xl bg-gray-700/10 w-40 h-40 ">
+        <div className="lg:w-1/2 md:w-2/3 flex flex-col py-6 justify-around text-gray-300">
+          <div className="flex md:flex-row flex-wrap md:mx-0 md:gap-0 gap-3 md:justify-between md:w-full w-11/12 mx-auto mb-10">
+            <div className="flex flex-col justify-around py-8 items-center relative rounded-2xl bg-gray-700/10 md:w-40 sm:h-40 w-36 h-36 ">
               <FiAward className="text-3xl mb-4 text-cyan-300" />
               <h2 className="text-base font-medium">Experience</h2>
               <p className="text-xs text-gray-300/50">2+ years of working</p>
             </div>
-            <div className="flex flex-col justify-around py-8 items-center rounded-2xl bg-gray-700/10 w-40 h-40">
+            <div className="flex flex-col justify-around py-8 items-center rounded-2xl bg-gray-700/10 md:w-40 sm:h-40 w-36 h-36">
               <FiUser className="text-3xl mb-4 text-cyan-300" />
               <h2 className="text-base font-medium">Clients</h2>
               <p className="text-xs text-gray-300/50">50+ Worldwide</p>
             </div>
-            <div className=" flex flex-col justify-around py-8 items-center rounded-2xl bg-gray-700/10 w-40 h-40">
+            <div className=" flex flex-col justify-around py-8 items-center rounded-2xl bg-gray-700/10 md:w-40 sm:h-40 w-36 h-36">
               <FiFolder className="text-3xl mb-4 text-cyan-300" />
               <h2 className="text-base font-medium">Projects</h2>
               <p className="text-xs text-gray-300/50">25+ Completed</p>
             </div>
           </div>
           {/* about me text */}
-          <div className="text-gray-400/80">
+          <div className="text-gray-400/80 md:mx-0 md:w-full mx-auto w-5/6 ">
             <p className="md:mb-6 mb-2 text-sm md:text-base">
               I would describe myself as a highly skilled professional with a
               passion for creating beautiful and functional user interfaces. I
