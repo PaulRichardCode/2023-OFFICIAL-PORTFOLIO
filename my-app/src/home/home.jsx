@@ -51,7 +51,7 @@ const Home = () => {
           </div>
         </div>
         {/* handshake image */}
-        <div className="w-full md:opacity-80 opacity-40 lg:basis-1/2 md:basis-1/2 md:flex-none flex justify-center">
+        <div className="w-full md:opacity-80 opacity-40 lg:basis-1/2 md:basis-1/2 md:flex-none flex justify-start">
           <img
             src={Handshake}
             alt="#"
