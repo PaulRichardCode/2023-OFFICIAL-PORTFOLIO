@@ -46,7 +46,7 @@ const About = () => {
             </div>
           </div>
           {/* about me text */}
-          <div className="text-gray-400/80 md:mx-0 md:w-full mx-auto w-5/6 ">
+          <div className="text-gray-400/80 md:mx-0 md:w-full mx-auto w-11/12 ">
             <p className="md:mb-6 mb-2 text-sm md:text-base">
               I would describe myself as a highly skilled professional with a
               passion for creating beautiful and functional user interfaces. I
