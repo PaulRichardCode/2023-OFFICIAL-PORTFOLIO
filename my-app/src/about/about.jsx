@@ -17,14 +17,16 @@ const About = () => {
       {/* image*/}
 
       <div className="md:flex md:justify-around md:items-start">
-        <div className="md:opacity-90 opacity-20 md:left-0 md:-top-20 left-1/2 mt-32 top-4/5 md:rotate-45 -rotate-180 md:relative absolute">
+        <div className="md:opacity-90 opacity-20 md:left-0 md:-top-20 left-1/2 mt-16 top-4/5 md:rotate-45 -rotate-180 md:relative absolute">
           <img
             src={Handy}
             alt="pointing hand"
             className="cursor-pointer md:w-auto md:h-auto w-40 opacity-80 hover:opacity-100 hover:transition-opacity"
           />
         </div>
+
         {/* Experience client and projects completed */}
+
         <div className="lg:w-1/2 md:w-2/3 flex flex-col py-6 justify-around text-gray-300">
           <div className="flex md:flex-row flex-wrap md:mx-0 md:gap-0 gap-3 md:justify-between md:w-full w-11/12 mx-auto mb-10">
             <div className="flex flex-col justify-around py-8 items-center relative rounded-2xl bg-gray-700/10 md:w-40 sm:h-40 w-36 h-36 ">
