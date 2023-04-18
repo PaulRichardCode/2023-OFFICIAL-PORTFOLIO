@@ -5,7 +5,7 @@ import Handshake from "../assets/shakinghands.png";
 
 const Home = () => {
   return (
-    <div className="relative w-full  max-h-screen ">
+    <div className="relative w-full max-h-screen ">
       <video
         autoPlay
         muted
@@ -50,7 +50,9 @@ const Home = () => {
             </a>
           </div>
         </div>
+
         {/* handshake image */}
+
         <div className="w-full md:opacity-80 opacity-40 lg:basis-1/2 md:basis-1/2 md:flex-none flex justify-start">
           <img
             src={Handshake}
