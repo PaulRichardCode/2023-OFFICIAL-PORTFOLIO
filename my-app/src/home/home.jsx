@@ -5,7 +5,7 @@ import Handshake from "../assets/shakinghands.png";
 
 const Home = () => {
   return (
-    <div className="relative w-full max-h-screen md:mx-0 mx-3">
+    <div className="relative w-full max-h-screen md:mx-0">
       <video
         autoPlay
         muted
@@ -17,7 +17,7 @@ const Home = () => {
 
       {/*  z-10 absolute  md:left-24 lg:left-44 left-5 md:flex md:items-center md:justify-center text-left */}
 
-      <div className="text-white absolute md:top-24 top-32 md:my-20 lg:left-24 md:mx-20 mx-5 md:flex md:items-center w-3/4">
+      <div className="text-white absolute md:top-24 top-32 md:my-20 lg:left-24 md:mx-20 mx-5 md:flex md:items-center md:w-3/4">
         {/* ABOUT */}
         {/* lg:basis-2/3 md:w-full w-5/6 */}
         <div className=" md:mb-0 mb-8 ">

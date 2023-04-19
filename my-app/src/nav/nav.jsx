@@ -28,13 +28,11 @@ const Nav = () => {
               alt="Flowbite Logo"
             />
           </a>
-
-          {/* RESUME */}
-
           <div class="flex md:order-2">
+            {/* Resume */}
             <button
               type="button"
-              class="text-cyan-300 border tracking border-cyan-300 hover:bg-red-50/10 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded text-sm px-6 py-2 text-center mr-3 md:mr-0 ">
+              class="text-cyan-300 border tracking border-cyan-300 hover:bg-red-50/10 focus:ring-4 focus:outline-none focus:ring-blue-300 font-light md:tracking-wider rounded text-sm px-6 py-2 text-center mr-3 md:mr-0 ">
               Resume
             </button>
             {/* responsive button */}
@@ -69,7 +67,7 @@ const Nav = () => {
             id="navbar-sticky">
             <ul
               role={"none"}
-              class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-normal md:border-0 ">
+              class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-normal md:tracking-wider md:border-0 ">
               <li>
                 <a
                   href="/about"

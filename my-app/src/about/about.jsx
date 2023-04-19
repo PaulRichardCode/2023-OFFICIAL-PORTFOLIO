@@ -46,19 +46,21 @@ const About = () => {
             </div>
           </div>
           {/* about me text */}
-          <div className="text-gray-400/80 md:mx-0 md:w-full mx-auto w-11/12 px-1 ">
-            <p className="md:mb-6 mb-2 text-sm md:text-base md:w-full w-11/12">
-              I would describe myself as a highly skilled professional with a
-              passion for creating beautiful and functional user interfaces. I
-              have a deep understanding of front-end technologies such as HTML,
-              CSS, JavaScript, React and Typescript.
+          <div className="text-gray-400/80 md:mx-0 md:w-full mx-auto w-11/12 ">
+            <p className="md:mb-6 mb-2 text-sm md:text-base">
+              Hello! My name is Richard and I enjoy creating things that live on
+              the internet. I would describe myself as a highly skilled
+              professional with a passion for creating beautiful and functional
+              user interfaces. I have a deep understanding of front-end
+              technologies such as HTML, CSS, JavaScript, Typescript, React and
+              Next.Js
             </p>
-            <p className="md:mb-6 mb-2 text-sm md:text-base md:w-full w-11/12">
+            <p className="md:mb-6 mb-2 text-sm md:text-base">
               {" "}
               I am always up to date with the latest trends and practices in web
               development.
             </p>
-            <p className="md:mb-6 mb-2 text-sm md:text-base md:w-full w-11/12">
+            <p className="md:mb-6 mb-2 text-sm md:text-base">
               I’ve had the privilege of working at an{" "}
               <a
                 href="https://us.mullenlowe.com/"
@@ -79,7 +81,9 @@ const About = () => {
                 target="_blank"
                 className="text-cyan-300 hover:underline hover:transition-all">
                 huge corporation.
-              </a>
+              </a>{" "}
+              My main focus these days is building accessible, inclusive
+              products and digital experiences for a variety of clients.
             </p>
           </div>
         </div>
