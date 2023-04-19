@@ -22,19 +22,8 @@ const About = () => {
         <div className="lg:w-1/2 md:w-2/3 flex flex-col py-6 justify-around text-gray-300">
           {/* about me text */}
           <div className="text-gray-400/80 md:mx-0 md:w-full mx-auto w-11/12 ">
-            <p className="md:mb-6 mb-2 text-sm md:text-base">
-              Hello! My name is Richard and I enjoy creating things that live on
-              the internet. I would describe myself as a highly skilled
-              professional with a passion for creating beautiful and functional
-              user interfaces. I have a deep understanding of front-end
-              technologies such as HTML, CSS, JavaScript, Typescript, React and
-              Next.Js
-            </p>
-            <p className="md:mb-6 mb-2 text-sm md:text-base">
-              {" "}
-              I am always up to date with the latest trends and practices in web
-              development.
-            </p>
+            <p className="md:mb-6 mb-2 text-sm md:text-base"></p>
+            <p className="md:mb-6 mb-2 text-sm md:text-base"> </p>
             <p className="md:mb-6 mb-2 text-sm md:text-base">
               I’ve had the privilege of working at an{" "}
               <a
