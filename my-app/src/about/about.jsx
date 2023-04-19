@@ -48,12 +48,12 @@ const About = () => {
           {/* about me text */}
           <div className="text-gray-400/80 md:mx-0 md:w-full mx-auto w-11/12 ">
             <p className="md:mb-6 mb-2 text-sm md:text-base">
-              Hello! My name is Richard and I enjoy creating things that live on
-              the internet. I would describe myself as a highly skilled
-              professional with a passion for creating beautiful and functional
-              user interfaces. I have a deep understanding of front-end
-              technologies such as HTML, CSS, JavaScript, Typescript, React and
-              Next.Js
+              Hello! My name is Richard, I am a Front-End Developer located in
+              Nigeria. I enjoy creating things that live on the internet. I
+              would describe myself as a highly skilled professional with a
+              passion for creating beautiful and functional user interfaces. I
+              have a deep understanding of front-end technologies such as HTML,
+              CSS, JavaScript, Typescript, React and Next.Js
             </p>
             <p className="md:mb-6 mb-2 text-sm md:text-base">
               {" "}
