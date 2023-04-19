@@ -69,6 +69,7 @@ const Nav = () => {
               role={"none"}
               class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-normal md:tracking-wider md:border-0 ">
               <li>
+                {/* about */}
                 <a
                   href="#about"
                   class="cursor-pointer block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-cyan-300 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 "
@@ -78,15 +79,17 @@ const Nav = () => {
                 </a>
               </li>
               <li>
+                {/* jobs */}
                 <a
-                  href="#"
+                  href="#jobs"
                   class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-cyan-300 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
                   <span className="text-cyan-300">02.</span> Experience
                 </a>
               </li>
               <li>
+                {/* work done */}
                 <a
-                  href="#"
+                  href="#project"
                   class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-cyan-300 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
                   <span className="text-cyan-300">03.</span> Work
                 </a>
