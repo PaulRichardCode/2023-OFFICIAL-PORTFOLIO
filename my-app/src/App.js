@@ -22,7 +22,7 @@ const App = () => {
           <Nav />
           <Link />
           <Home />
-          <About />
+          <About id="about" />
         </div>
       )}
     </div>
