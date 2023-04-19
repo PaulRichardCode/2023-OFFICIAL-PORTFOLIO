@@ -5,7 +5,7 @@ import Handshake from "../assets/shakinghands.png";
 
 const Home = () => {
   return (
-    <div className="relative w-full max-h-screen ">
+    <div className="relative w-full max-h-screen md:mx-0 mx-3">
       <video
         autoPlay
         muted
@@ -15,15 +15,19 @@ const Home = () => {
 
       {/* Home */}
 
-      <div className="text-white md:my-20 z-10 absolute md:top-20 top-32 md:left-24 lg:left-44 left-5 md:flex md:items-center md:justify-center text-left">
-        <div className="lg:basis-2/3 md:mb-0 mb-8 md:w-full w-5/6">
+      {/*  z-10 absolute  md:left-24 lg:left-44 left-5 md:flex md:items-center md:justify-center text-left */}
+
+      <div className="text-white absolute md:top-24 top-32 md:my-20 lg:left-24 md:mx-20 mx-5 md:flex md:items-center w-3/4">
+        {/* ABOUT */}
+        {/* lg:basis-2/3 md:w-full w-5/6 */}
+        <div className=" md:mb-0 mb-8 ">
           <p className="md:text-base text-base md:font-normal font-normal pl-1 text-cyan-300 md:mb-5 mb-4 tracking-wide ">
             Hi, my name is
           </p>
           <h1 className="lg:text-6xl md:text-5xl text-4xl md:mb-6 mb-3 text-gray-300 md:font-bold font-semibold">
             Paul Richard.
           </h1>
-          <h1 className="lg:text-5xl md:text-4xl text-4xl md:mb-6 mb-5 text-gray-400 font-semibold lg:mb-10 md:font-bold">
+          <h1 className="lg:text-5xl md:text-4xl text-3xl md:mb-6 mb-5 text-gray-400 font-semibold lg:mb-10 md:font-bold">
             I build things for the web.
           </h1>
           <p className="md:text-base text-sm pl-1 text-gray-400/80 md:font-normal font-normal md:mb-6 lg:mb-12 mb-10 md:w-2/3">
@@ -39,7 +43,6 @@ const Home = () => {
             </a>
             .
           </p>
-
           <div>
             <a
               href="#"
@@ -52,12 +55,13 @@ const Home = () => {
         </div>
 
         {/* handshake image */}
-
+        {/* md:w-full md:opacity-80 opacity-40 lg:basis-1/3 md:basis-1/2 md:flex-none flex justify-start */}
         <div className="md:w-full md:opacity-80 opacity-40 lg:basis-1/3 md:basis-1/2 md:flex-none flex justify-start">
           <img
             src={Handshake}
             alt="#"
-            className="opacity-80 cursor-pointer hover:transition-opacity-2 hover:opacity-100 md:w-96 w-1/2"
+            /*  md:w-96 w-full */
+            className="opacity-80 cursor-pointer hover:transition-opacity-2 hover:opacity-100 md:w-auto md:h-auto w-40"
           />
         </div>
       </div>
