@@ -5,8 +5,8 @@ import { FiUser } from "react-icons/fi";
 
 const About = () => {
   return (
-    <div id="about" className="md:my-20 md:w-3/4 md:mx-auto mx-3 my-96">
-      <div className="md:pl-44">
+    <div id="about" className="md:my-20 md:w-3/4 md:mx-auto mx-3 mt-72">
+      <div className="md:pl-44 md:pt-20 pt-16">
         <h1 className="text-gray-300 md:text-3xl text-2xl mb-10 mr-8 w-11/12 font-semibold tracking-tight flex items-center md:justify-end justify-center">
           <span className="text-cyan-300 md:text-2xl text-xl pr-4">01.</span>{" "}
           About me{" "}
