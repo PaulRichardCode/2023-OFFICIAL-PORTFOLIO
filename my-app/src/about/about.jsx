@@ -16,8 +16,8 @@ const About = () => {
 
       {/* image*/}
 
-      <div className="md:flex md:justify-around md:items-start">
-        <div className="md:opacity-90 opacity-20 md:left-0 md:-top-20 left-1/2 mt-16 top-4/5 md:rotate-45 -rotate-180 md:relative absolute">
+      <div className="md:flex md:justify-around md:items-center">
+        <div className="md:opacity-90 opacity-20 md:left-0 md:-top-20 left-1/2 mt-16 top-4/5 md:rotate-0 -rotate-180 md:relative absolute">
           <img
             src={Handy}
             alt="pointing hand"
