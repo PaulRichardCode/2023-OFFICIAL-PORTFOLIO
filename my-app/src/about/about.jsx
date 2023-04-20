@@ -51,14 +51,13 @@ const About = () => {
               Hello! My name is Richard, I am a Front-End Developer located in
               Nigeria. I enjoy creating things that live on the internet. I
               would describe myself as a highly skilled professional with a
-              passion for creating beautiful and functional user interfaces. I
-              have a deep understanding of front-end technologies such as HTML,
-              CSS, JavaScript, Typescript, React and Next.Js
+              passion for creating beautiful and functional user interfaces.
             </p>
             <p className="md:mb-6 mb-2 text-sm md:text-base">
               {" "}
-              I am always up to date with the latest trends and practices in web
-              development.
+              I had many opportunities to work in a vast spectrum of web
+              technologies what let me gather a significant amount of various
+              experience.
             </p>
             <p className="md:mb-6 mb-2 text-sm md:text-base">
               I’ve had the privilege of working at an{" "}
