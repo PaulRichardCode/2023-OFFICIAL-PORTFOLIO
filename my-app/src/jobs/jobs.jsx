@@ -57,10 +57,6 @@ const About = () => {
             </div>
 
             {/* video*/}
-
-            <div>
-              <video src=""></video>
-            </div>
           </div>
         </div>
       </div>
