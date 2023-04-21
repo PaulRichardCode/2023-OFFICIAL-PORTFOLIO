@@ -5,16 +5,16 @@ const About = () => {
   return (
     <div id="jobs" className="md:py-20 md:w-full md:mx-0 mx-3 mt-10">
       <div className="md:w-3/4 md:mx-auto">
-        <h1 className="text-gray-300 md:text-3xl text-2xl mb-10 mr-8 w-11/12 md:w-1/2 font-semibold tracking-tight flex items-center md:justify-start justify-center">
+        <h1 className="text-gray-300 md:text-3xl text-2xl md:mb-0 mb-10 mr-8 w-11/12 md:w-1/2 font-semibold tracking-tight flex items-center md:justify-start justify-center">
           <span className="text-cyan-300 md:text-2xl text-xl pr-4">02.</span>{" "}
           Skills & Experience {/* you can use full in the width as well */}{" "}
           <span className="md:w-36 md:bg-gray-300/70 md:h-px md:ml-8 md:opacity-40 "></span>
         </h1>
 
-        <div className="md:flex md:justify-between md:items-center">
+        <div className=" md:flex md:justify-between md:items-center">
           {/* Experience client and projects completed */}
 
-          <div className="lg:w-1/2 md:w-2/3 flex flex-col py-6 justify-around text-gray-300">
+          <div className="lg:w-5/12 md:w-2/3 md:flex md:flex-row md:items-start flex-col py-6 justify-between text-gray-300">
             {/* about me text */}
             <div className="text-gray-400/80 md:mx-0 md:w-full mx-auto w-11/12 ">
               <p className="md:mb-6 mb-2 text-sm md:text-base">
@@ -56,8 +56,10 @@ const About = () => {
                 me.
               </p>
             </div>
+          </div>
+          {/* Animation */}
+          <div className="cursor-default w-1/2">
             <TextSphare />
-            {/* video*/}
           </div>
         </div>
       </div>
