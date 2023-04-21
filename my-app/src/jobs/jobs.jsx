@@ -56,7 +56,7 @@ const About = () => {
                 me.
               </p>
             </div>
-
+            <TextSphare />
             {/* video*/}
           </div>
         </div>
