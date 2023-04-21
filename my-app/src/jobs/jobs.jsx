@@ -41,14 +41,16 @@ const About = () => {
               <p className="md:mb-6 mb-2 text-sm md:text-base">
                 Visit my{" "}
                 <a
-                  href="https://us.mullenlowe.com/"
+                  href="https://www.linkedin.com/in/richard-paul-11321124b/"
                   target="_blank"
                   className="text-cyan-300 hover:underline hover:transition-all">
                   LinkedIn
                 </a>{" "}
-                Profile for more details or just{" "}
+                Profile for more details or just {/* ADD A CONTACT ME HREF */}
+                {/* ADD A CONTACT ME HREF */}
+                {/* ADD A CONTACT ME HREF */}
                 <a
-                  href="https://starry.com/"
+                  href="https://www.linkedin.com/in/richard-paul-11321124b/"
                   target="_blank"
                   className="text-cyan-300 hover:underline hover:transition-all">
                   Contact
