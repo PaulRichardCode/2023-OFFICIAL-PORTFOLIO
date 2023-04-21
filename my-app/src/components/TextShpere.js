@@ -16,14 +16,15 @@ const TextShpere = () => {
         "SASS",
         "JavaScript",
         "React",
-        "Vue",
-        "Nuxt",
+        "React Native",
+        "Next",
         "NodeJS",
         "Babel",
         "Jquery",
         "ES6",
         "GIT",
         "GITHUB",
+        "TypeScript",
       ];
 
       const options = {
