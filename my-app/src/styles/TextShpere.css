@@ -40,6 +40,8 @@
   }
   .tagcloud {
     font-size: 0.8em;
-    width: 100%;
+    width: 1px;
+    top: 0;
+    left: 50%;
   }
 }
