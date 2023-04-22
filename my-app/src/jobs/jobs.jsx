@@ -11,10 +11,10 @@ const About = () => {
           <span className="md:w- md:bg-gray-300/70 md:h-px md:ml-8 md:opacity-40 "></span>
         </h1>
 
-        <div className=" md:flex ">
+        <div className=" md:flex">
           {/* Experience client and projects completed */}
           <div className="md:flex md:justify-between md:items-center my-5">
-            <div className="lg:w-5/12 md:w-2/3 md:flex md:flex-row md:items-start flex-col py-6 justify-between text-gray-300">
+            <div className="lg:w-5/12 md:w-2/3 md:flex md:flex-row md:items-start flex-col md:py-6 justify-between text-gray-300">
               {/* about me text */}
               <div className="text-gray-400/80 md:mx-0 md:w-full mx-auto w-11/12 ">
                 <p className="md:mb-6 mb-2 text-sm md:text-base">
@@ -61,7 +61,7 @@ const About = () => {
             </div>
             {/* Animation */}
             <div className="cursor-default w-1/2  ">
-              <TextSphare />
+              <TextSphare className="" />
             </div>
           </div>
         </div>

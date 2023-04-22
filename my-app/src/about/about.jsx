@@ -42,7 +42,7 @@ const About = () => {
             <div className=" flex flex-col justify-around py-8 items-center rounded-2xl bg-gray-700/10 md:w-40 sm:h-40 w-36 h-36">
               <FiFolder className="text-3xl mb-4 text-cyan-300" />
               <h2 className="text-base font-medium">Projects</h2>
-              <p className="text-xs text-gray-300/50">25+ Completed</p>
+              <p className="text-xs text-gray-300/50 ">25+ Completed</p>
             </div>
           </div>
           {/* about me text */}
