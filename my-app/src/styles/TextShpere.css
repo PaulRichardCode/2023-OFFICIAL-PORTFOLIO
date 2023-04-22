@@ -30,3 +30,6 @@
 .tagcloud--item:hover {
   color: #ff6347;
 }
+
+@media (max-width: 600px) {
+}
