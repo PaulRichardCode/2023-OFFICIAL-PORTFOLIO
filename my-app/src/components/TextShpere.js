@@ -28,7 +28,7 @@ const TextShpere = () => {
       ];
 
       const options = {
-        radius: 300,
+        radius: 180,
         maxSpeed: "fast",
         initSpeed: "normal",
         keep: true,

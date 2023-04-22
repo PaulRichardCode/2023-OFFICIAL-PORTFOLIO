@@ -32,4 +32,14 @@
 }
 
 @media (max-width: 600px) {
+  .text-shpere {
+    width: 5vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .tagcloud {
+    font-size: 0.8em;
+    width: 100%;
+  }
 }
