@@ -60,8 +60,8 @@ const About = () => {
               </div>
             </div>
             {/* Animation */}
-            <div className="cursor-default w-1/2  ">
-              <TextSphare className="" />
+            <div className="md:w-1/2 w-1/12">
+              <TextSphare />
             </div>
           </div>
         </div>
