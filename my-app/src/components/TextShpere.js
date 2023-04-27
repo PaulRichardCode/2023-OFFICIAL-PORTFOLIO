@@ -19,7 +19,7 @@ const TextShpere = () => {
         "React Native",
         "Next",
         "NodeJS",
-        "Babel",
+        "API",
         "Jquery",
         "ES6",
         "GIT",
