@@ -12,7 +12,7 @@ const About = () => {
         </h1>
 
         <div className=" md:flex">
-          {/* Experience client and projects completed */}
+          {/* Experience client and projects completed.*/}
           <div className="md:flex md:justify-between md:items-center my-5">
             <div className="lg:w-5/12 md:w-2/3 md:flex md:flex-row md:items-start flex-col md:py-6 justify-between text-gray-300">
               {/* about me text */}
@@ -60,7 +60,7 @@ const About = () => {
               </div>
             </div>
             {/* Animation + charts */}
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col">
               <div className="md:w-1/2 w-1/12">
                 <TextSphare />
               </div>
