@@ -10,7 +10,7 @@ const About = () => {
         <h1 className="text-gray-300 md:text-3xl text-2xl mb-10 mr-8 w-11/12 font-semibold tracking-tight flex items-center md:justify-end justify-center">
           <span className="text-cyan-300 md:text-2xl text-xl pr-4">01.</span>{" "}
           About me{" "}
-          <span className="md:w-72 md:bg-gray-300/70 md:h-px md:ml-8 md:opacity-40 "></span>
+          <span className="lg:w-72 md:bg-gray-300/70 md:h-px md:ml-8 md:opacity-40 "></span>
         </h1>
       </div>
 

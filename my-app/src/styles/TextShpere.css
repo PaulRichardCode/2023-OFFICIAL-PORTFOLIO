@@ -13,7 +13,7 @@
 
 .tagcloud {
   display: inline-block;
-  top: -40px;
+  top: -50px;
   left: 0;
   font-family: "Inter", sans-serif;
   font-weight: 600;
@@ -33,7 +33,7 @@
 
 @media (max-width: 600px) {
   .text-shpere {
-    width: 90vw;
+    width: 0vw;
     display: flex;
     height: 50vh;
     justify-content: center;

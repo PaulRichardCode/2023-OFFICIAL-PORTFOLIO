@@ -8,12 +8,13 @@ const About = () => {
         <h1 className="text-gray-300 md:text-3xl text-2xl md:mb-0 mb-10 mr-8 w-11/12 md:w-1/2 font-semibold tracking-tight flex items-center md:justify-start justify-center">
           <span className="text-cyan-300 md:text-2xl text-xl pr-4">02.</span>{" "}
           Skills & Experience {/* you can use full in the width as well */}{" "}
-          <span className="md:w-16 md:bg-gray-300/70 md:h-px md:ml-8 md:opacity-40 "></span>
+          <span className="lg:w-16 md:bg-gray-300/70 md:h-px md:ml-8 md:opacity-40 "></span>
         </h1>
 
         <div className=" md:flex">
           {/* Experience client and projects completed.*/}
           <div className="md:flex md:justify-between md:items-center my-5">
+            {/* Texts */}
             <div className="lg:w-5/12 md:w-2/3 md:flex md:flex-row md:items-start flex-col md:py-6 justify-between text-gray-300">
               {/* about me text */}
               <div className="text-gray-400/80 md:mx-0 md:w-full mx-auto w-11/12 ">
@@ -61,29 +62,33 @@ const About = () => {
             </div>
             {/* Animation + charts */}
             <div className="flex flex-col md:w-1/2 items-center ">
-              <div className="md:w-1/2 w-1/12 h-64">
+              <div className="md:w-1/2 w-1/12 md:h-60">
                 <TextSphare />
               </div>
               {/* charts */}
-              <div className="flex justify-between gap-5">
-                <div className="flex flex-col justify-around py-3 px-4 text-cyan-300/80 items-start rounded-2xl bg-gray-700/10 md:w-56 sm:h-44 w-36 h-36 ">
-                  <h1 className="text-lg text-white">FrontEnd developer</h1>
-                  <p className="text-sm text-gray-300/70">
+              <div className="md:flex md:justify-between md:gap-5 flex gap-3">
+                <div className="flex flex-col justify-around md:py-3 md:px-4 text-cyan-300/80 items-start md:rounded-2xl rounded bg-gray-700/10 md:w-56 sm:h-44 w-40 h-40 px-2 ">
+                  <h1 className=" md:text-lg text-xs text-white">
+                    FrontEnd developer
+                  </h1>
+                  <p className="md:text-sm text-xs text-gray-300/70">
                     To the End <span className="block">2022-2023</span>{" "}
                   </p>
                   <p className="text-xs text-gray-300/50">
-                    Creative brand, website design and development studio that
-                    can bring your online business dreams to life
+                    Creative brand, website development studio that can bring
+                    your online business dreams to life
                   </p>
                 </div>
-                <div className="flex flex-col justify-around py-3 px-4 text-cyan-300/80 items-start rounded-2xl bg-gray-700/10 md:w-56 sm:h-44 w-36 h-36 ">
-                  <h1 className="text-lg text-white">MobileApp developer</h1>
-                  <p className="text-sm text-gray-300/70">
+                <div className="flex flex-col justify-around md:py-3 md:px-4 text-cyan-300/80 items-start md:rounded-2xl rounded bg-gray-700/10 md:w-56 sm:h-44 w-40 h-40 px-2">
+                  <h1 className="md:text-lg text-xs text-white">
+                    MobileApp developer
+                  </h1>
+                  <p className="md:text-sm text-xs  text-gray-300/70">
                     Upwork <span className="block">2022-2023</span>{" "}
                   </p>
                   <p className="text-xs text-gray-300/50">
-                    Creating Beautiful mobile Apps for clients on Upwork
-                    development. I can also bring your mobile app dreams to life
+                    Creating Beautiful mobile Apps for clients on Upwork. I can
+                    also bring your mobile app dreams to life
                   </p>
                 </div>
               </div>
