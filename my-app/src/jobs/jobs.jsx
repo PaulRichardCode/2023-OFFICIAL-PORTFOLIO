@@ -60,12 +60,33 @@ const About = () => {
               </div>
             </div>
             {/* Animation + charts */}
-            <div className="flex flex-col">
-              <div className="md:w-1/2 w-1/12">
+            <div className="flex flex-col bg-black md:w-1/2 items-center">
+              <div className="md:w-1/2 w-1/12 h-72">
                 <TextSphare />
               </div>
               {/* charts */}
-              <div></div>
+              <div className="flex justify-between gap-5">
+                <div className="flex flex-col justify-around py-3 px-4 text-cyan-300/80 items-start rounded-2xl bg-gray-700/30 md:w-56 sm:h-44 w-36 h-36 ">
+                  <h1 className="text-lg ">FrontEnd developer</h1>
+                  <p className="text-sm text-gray-300/70">
+                    To the End <span className="block">2017-2018</span>{" "}
+                  </p>
+                  <p className="text-xs text-gray-300/50">
+                    Creative brand, website design and development studio that
+                    can bring your online business dreams to life
+                  </p>
+                </div>
+                <div className="flex flex-col justify-around py-3 px-4 text-cyan-300/80 items-start rounded-2xl bg-gray-700/30 md:w-56 sm:h-44 w-36 h-36 ">
+                  <h1 className="text-lg ">MobileApp developer</h1>
+                  <p className="text-sm text-gray-300/70">
+                    To the End <span className="block">2017-2018</span>{" "}
+                  </p>
+                  <p className="text-xs text-gray-300/50">
+                    Creative brand, website design and development studio that
+                    can bring your online business dreams to life
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
