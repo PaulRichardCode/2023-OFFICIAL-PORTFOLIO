@@ -8,7 +8,7 @@ const About = () => {
         <h1 className="text-gray-300 md:text-3xl text-2xl md:mb-0 mb-10 mr-8 w-11/12 md:w-1/2 font-semibold tracking-tight flex items-center md:justify-start justify-center">
           <span className="text-cyan-300 md:text-2xl text-xl pr-4">02.</span>{" "}
           Skills & Experience {/* you can use full in the width as well */}{" "}
-          <span className="md:w- md:bg-gray-300/70 md:h-px md:ml-8 md:opacity-40 "></span>
+          <span className="md:w-16 md:bg-gray-300/70 md:h-px md:ml-8 md:opacity-40 "></span>
         </h1>
 
         <div className=" md:flex">
