@@ -34,9 +34,8 @@ const About = () => {
                 </p>
                 <p className="md:mb-6 mb-2 text-sm md:text-base">
                   {" "}
-                  I also have full-stack developer experience with popular
-                  open-source CMS like (WordPress, Drupal, Magento, Keystone.js
-                  and others) .
+                  I also have experience with popular open-source CMS like
+                  (WordPress, Drupal, Magento, Keystone.js and others) .
                 </p>
 
                 <p className="md:mb-6 mb-2 text-sm md:text-base">

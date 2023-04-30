@@ -32,10 +32,10 @@ const Project = () => {
     },
   ];
   return (
-    <div id="project" className="md:py-20 md:w-full md:mx-0 mx-3 mt-5">
+    <div id="project" className="md:py-20 md:w-full md:mx-0 mx-3 md:mt-5 mt-16">
       <div className="md:w-3/4 md:mx-auto ">
         <h1 className="text-gray-300 md:text-3xl text-2xl md:mb-5 mb-10 mr-8 w-11/12 md:w-1/2 font-semibold tracking-tight flex items-center md:justify-start justify-center">
-          <span className="text-cyan-300 md:text-2xl text-xl pr-4">02.</span>{" "}
+          <span className="text-cyan-300 md:text-2xl text-xl pr-4">03.</span>{" "}
           Work & Projects{" "}
           <span className="lg:w-16 md:bg-gray-300/70 md:h-px md:ml-8 md:opacity-40 "></span>
         </h1>
@@ -49,18 +49,20 @@ const Project = () => {
                 alt={image.caption}
                 className="md:w-3/5 md:h-auto w-screen h-56 "
               />
-              <div className="caption flex flex-col bg-white justify-evenly items-start pl-10">
-                <h1 className="text-2xl text-cyan-900 font-semibold shadow-lg shadow-cyan-300">
+              <div className="caption flex flex-col bg-white justify-evenly md:gap-0 gap-5 py-5 md:py-0 md:items-start items-center md:pl-10">
+                <h1 className="md:text-2xl text-cyan-900 font-semibold shadow-lg shadow-cyan-300">
                   {image.caption}
                 </h1>
-                <p className="w-4/5 text-gray-700">{image.text}</p>
+                <p className="w-4/5 md:text-base text-sm md:text-left text-center text-gray-700">
+                  {image.text}
+                </p>
                 <div>
                   <a
                     href="#"
                     type="button"
                     id="contact"
                     target="_blank"
-                    class="text-cyan-900 md:text-base text-sm border tracking-widest bg-cyan-300 hover:bg-cyan-400/90 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded md:px-12 px-10 md:py-3 py-4 text-center mr-3 md:mr-0 ">
+                    class="text-cyan-900 md:text-base text-sm border tracking-widest bg-cyan-300 hover:bg-cyan-400/90 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded md:px-12 px-8 md:py-3 py-3 text-center md:mr-0 ">
                     Case Study
                   </a>
                 </div>
