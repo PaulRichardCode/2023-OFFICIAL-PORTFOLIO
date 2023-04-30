@@ -9,25 +9,25 @@ const Project = () => {
     {
       id: 1,
       src: img1,
-      caption: "dopefolio",
+      caption: "Dopefolio",
       text: "Dopefolio is a successful Open-Source project that I created which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally",
     },
     {
       id: 2,
       src: img2,
-      caption: "boreal coffee clone",
+      caption: "Boreal coffee clone",
       text: "Crown is a web template that I created targeting the restaurant and food industry which anyone can use to present their business online.",
     },
     {
       id: 3,
       src: img3,
-      caption: "crown template",
+      caption: "Crown template",
       text: "I re-created the frontend of Boreal Coffee's official web app because I got attracted to their beautiful UI. It was a great experience for me to build the entire frontend.",
     },
     {
       id: 4,
       src: img4,
-      caption: "wilsonpor",
+      caption: "Wilsonpor",
       text: "Wilsonport is a multiservice logistics and transport company and I created their website from scratch using the frontend tools I know.",
     },
   ];
@@ -43,17 +43,24 @@ const Project = () => {
           {images.map((image) => (
             <div
               key={image.id}
-              className="flex md:py-10 py-5 bg-red-50 md:w-full md:flex-nowrap flex-wrap">
-              <img src={image.src} alt={image.caption} className="w-80 h-56" />
-              <div className="caption">
-                <h1 className="text-2xl">{image.caption}</h1>
-                <p className="text">{image.text}</p>
+              className="flex md:py-5 py-2 md:w-full md:flex-nowrap flex-wrap">
+              <img
+                src={image.src}
+                alt={image.caption}
+                className="md:w-3/5 md:h-auto w-screen h-56 "
+              />
+              <div className="caption flex flex-col bg-white justify-evenly items-start pl-10">
+                <h1 className="text-2xl text-cyan-900 font-semibold shadow-lg shadow-cyan-300">
+                  {image.caption}
+                </h1>
+                <p className="w-4/5">{image.text}</p>
                 <div>
                   <a
                     href="#"
                     type="button"
                     id="contact"
-                    class="text-cyan-300 md:text-base text-sm border tracking-widest border-cyan-300 hover:bg-red-50/10 focus:ring-4 focus:outline-none focus:ring-blue-300 font-light rounded md:px-12 px-10 md:py-3 py-4 text-center mr-3 md:mr-0 ">
+                    target="_blank"
+                    class="text-cyan-900  md:text-base text-sm border tracking-widest bg-cyan-300 hover:bg-cyan-400 focus:ring-4 focus:outline-none focus:ring-blue-300 font-light rounded md:px-12 px-10 md:py-3 py-4 text-center mr-3 md:mr-0 ">
                     Case Study
                   </a>
                 </div>

@@ -67,7 +67,7 @@ const About = () => {
               </div>
               {/* charts */}
               <div className="md:flex md:justify-between md:gap-5 flex gap-3">
-                <div className="flex flex-col justify-around md:py-3 md:px-4 text-cyan-300/80 items-start md:rounded-none rounded bg-gray-700/10 md:w-56 sm:h-44 w-40 h-40 px-2 ">
+                <div className="flex flex-col justify-around md:py-3 md:px-4 text-cyan-300/80 items-start md:rounded-none rounded bg-gray-700/10 md:w-56 sm:h-44 w-36 h-36 px-2">
                   <h1 className=" md:text-lg text-xs text-white">
                     FrontEnd developer
                   </h1>
@@ -79,7 +79,7 @@ const About = () => {
                     your online business dreams to life
                   </p>
                 </div>
-                <div className="flex flex-col justify-around md:py-3 md:px-4 text-cyan-300/80 items-start md:rounded-none rounded bg-gray-700/10 md:w-56 sm:h-44 w-40 h-40 px-2">
+                <div className="flex flex-col justify-around md:py-3 md:px-4 text-cyan-300/80 items-start md:rounded-none rounded bg-gray-700/10 md:w-56 sm:h-44 w-36 h-36 px-2">
                   <h1 className="md:text-lg text-xs text-white">
                     MobileApp developer
                   </h1>
