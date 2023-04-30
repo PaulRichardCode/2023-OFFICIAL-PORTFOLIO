@@ -1,33 +1,32 @@
 import React from "react";
-import { motion } from "framer-motion";
-import { useEffect, useState } from "react";
+import img1 from "../assets/dopefolio.jpeg";
+import img2 from "../assets/boreal-coffee-clone.jpeg";
+import img3 from "../assets/crown-template.jpeg";
+import img4 from "../assets/wilsonport.jpeg";
 
 const Project = () => {
-  const [seconds, setSeconds] = useState(0);
-  const [anim, setAnim] = useState("in");
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setSeconds((seconds) => seconds + 1);
-      setAnim("in");
-      setTimeout(() => {
-        setAnim("out");
-      }, 500);
-    }, 1000);
-    return () => clearInterval(interval);
-  }, []);
-
-  const variants = {
-    out: {
-      opacity: 0,
+  const images = [
+    {
+      id: 1,
+      src: img1,
+      caption: "Image 1",
     },
-    in: {
-      opacity: 1,
-      transition: {
-        duration: 0.5,
-      },
+    {
+      id: 2,
+      src: img2,
+      caption: "Image 2",
     },
-  };
-
+    {
+      id: 3,
+      src: img3,
+      caption: "Image 3",
+    },
+    {
+      id: 4,
+      src: img4,
+      caption: "Image 4",
+    },
+  ];
   return (
     <div>
       <div id="project" className="md:py-20 md:w-full md:mx-0 mx-3 mt-10">
@@ -37,15 +36,16 @@ const Project = () => {
             Things I have Worked on{" "}
             <span className="lg:w-16 md:bg-gray-300/70 md:h-px md:ml-8 md:opacity-40 "></span>
           </h1>
+          <div className="flex flex-col justify-center">
+            {images.map((image) => (
+              <div key={image.id} className="w-80 h-56">
+                <img src={image.src} alt={image.caption} />
+                <div className="caption">{image.caption}</div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-      {/*   <motion.div
-        animate={anim}
-        variants={variants}
-        className="App"
-        style={{ fontSize: 100 }}>
-        {seconds}
-      </motion.div> */}
     </div>
   );
 };
