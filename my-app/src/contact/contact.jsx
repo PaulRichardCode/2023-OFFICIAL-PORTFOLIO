@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      class="md:border md:border-cyan-300/20 md:w-1/2 md:mx-auto">
+      class="md:border md:border-cyan-300/5 md:w-1/2 md:mx-auto">
       <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md flex items-center justify-center flex-wrap">
         <h1 className="text-cyan-300 md:text-xl text-sm md:mb-2 mb-2 md:mr-4 w-11/12 md:w-2/3 font-semibold tracking-tight flex items-center justify-center">
           <span className="text-cyan-300 md:text-base text-xs md:pr-4 pr-2">
@@ -37,45 +37,45 @@ const Contact = () => {
             </a>
           </button>
         </form>
-        <div className="md:w-full w-5/6 md:mt-0 my-16">
+        <div className="md:w-full w-5/6 md:mb-5 mt-16">
           {" "}
           <ul className="flex justify-around items-center">
             <li>
               <a href="https://github.com/PaulRichardCode" target={"_blank"}>
-                <FiGithub className="text-gray-300/80 text-xl block md:hidden cursor-pointer mb-6 hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
+                <FiGithub className="text-gray-300/80 text-xl block md:hidden cursor-pointer  hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
               </a>
             </li>
             <li>
               <a href="https://twitter.com/RichC0DE" target={"_blank"}>
-                <FiTwitter className="text-gray-300/80 text-xl block md:hidden cursor-pointer mb-6 hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
+                <FiTwitter className="text-gray-300/80 text-xl block md:hidden cursor-pointer  hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
               </a>
             </li>
             <li>
               <a
                 href="https://www.linkedin.com/in/richard-paul-11321124b/"
                 target={"_blank"}>
-                <FiLinkedin className="text-gray-300/80 text-xl block md:hidden cursor-pointer mb-6 hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
+                <FiLinkedin className="text-gray-300/80 text-xl block md:hidden cursor-pointer  hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
               </a>
             </li>
             <li>
               <a
                 href="https://www.instagram.com/richardpaul06/"
                 target={"_blank"}>
-                <FiInstagram className="text-gray-300/80 text-xl block md:hidden cursor-pointer mb-6 hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
+                <FiInstagram className="text-gray-300/80 text-xl block md:hidden cursor-pointer  hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
               </a>
             </li>
             <li>
               <a href="https://paulrichardevs@gmail.com" target={"_blank"}>
-                <FiMail className="text-cyan-300/80 text-xl block md:hidden cursor-pointer mb-6 hover:text-gray-300/80 hover:-translate-y-1 hover:transition duration-100" />
+                <FiMail className="text-cyan-300/80 text-xl block md:hidden cursor-pointer  hover:text-gray-300/80 hover:-translate-y-1 hover:transition duration-100" />
               </a>
             </li>
           </ul>
         </div>
       </div>
-      <p>
+      <p className="mb-5">
         <a
           href="https://github.com/PaulRichardCode"
-          className="text-gray-400/80 font-normal text-sm font-mono flex justify-center">
+          className="text-gray-400/80 font-normal text-sm font-mono flex justify-center hover:text-cyan-300 hover:transition-colors duration-200">
           Designed & Built by Paul Richard
         </a>
       </p>
