@@ -1,5 +1,11 @@
 import React from "react";
 
+import { FiGithub } from "react-icons/fi";
+import { FiTwitter } from "react-icons/fi";
+import { FiLinkedin } from "react-icons/fi";
+import { FiInstagram } from "react-icons/fi";
+import { FiMail } from "react-icons/fi";
+
 const Contact = () => {
   return (
     <section
@@ -23,7 +29,7 @@ const Contact = () => {
         <form action="#" class="space-y-8 py-8">
           <button
             type="submit"
-            class="hover:shadow hover:shadow-cyan-300 hover:transition-shadow border border-cyan-300 py-3 px-5 text-sm font-medium text-center text-cyan-300 rounded bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
+            class="hover:shadow hover:shadow-cyan-300 duration-300 hover:transition-shadow border border-cyan-300 py-3 px-5 text-sm font-medium text-center text-cyan-300 rounded bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">
             <a
               target="_blank"
               href="mailto:paulrichardevs@gmail.com?subject=Hello&body=%0D%0A%0D%0AThanks%20for%20your%20email.%0D%0A%0D%0ABest%2C%0D%0A">
@@ -31,7 +37,48 @@ const Contact = () => {
             </a>
           </button>
         </form>
+        <div className="md:w-full w-5/6 md:mt-0 my-16">
+          {" "}
+          <ul className="flex justify-around items-center">
+            <li>
+              <a href="https://github.com/PaulRichardCode" target={"_blank"}>
+                <FiGithub className="text-gray-300/80 text-xl block md:hidden cursor-pointer mb-6 hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/RichC0DE" target={"_blank"}>
+                <FiTwitter className="text-gray-300/80 text-xl block md:hidden cursor-pointer mb-6 hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/richard-paul-11321124b/"
+                target={"_blank"}>
+                <FiLinkedin className="text-gray-300/80 text-xl block md:hidden cursor-pointer mb-6 hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/richardpaul06/"
+                target={"_blank"}>
+                <FiInstagram className="text-gray-300/80 text-xl block md:hidden cursor-pointer mb-6 hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
+              </a>
+            </li>
+            <li>
+              <a href="https://paulrichardevs@gmail.com" target={"_blank"}>
+                <FiMail className="text-cyan-300/80 text-xl block md:hidden cursor-pointer mb-6 hover:text-gray-300/80 hover:-translate-y-1 hover:transition duration-100" />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
+      <p>
+        <a
+          href="https://github.com/PaulRichardCode"
+          className="text-gray-400/80 font-normal text-sm font-mono flex justify-center">
+          Designed & Built by Paul Richard
+        </a>
+      </p>
     </section>
   );
 };
