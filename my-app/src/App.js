@@ -7,6 +7,7 @@ import Link from "./link/link";
 import About from "./about/about";
 import Jobs from "./jobs/jobs.jsx";
 import Project from "./project/project.jsx";
+import Contact from "./contact/contact.jsx";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -27,6 +28,7 @@ const App = () => {
           <About />
           <Jobs />
           <Project />
+          <Contact />
         </div>
       )}
     </div>

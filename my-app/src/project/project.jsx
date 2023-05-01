@@ -10,24 +10,28 @@ const Project = () => {
       id: 1,
       src: img1,
       caption: "Dopefolio",
+      link: "https://dopefolio.netlify.app/",
       text: "Dopefolio is a successful Open-Source project that I created which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally",
     },
     {
       id: 2,
       src: img2,
-      caption: "Boreal coffee clone",
+      caption: "Crown melbourne",
+      link: "https://www.crownmelbourne.com.au/",
       text: "Crown is a web template that I created targeting the restaurant and food industry which anyone can use to present their business online.",
     },
     {
       id: 3,
       src: img3,
-      caption: "Crown template",
+      caption: "Boreal coffee clone",
+      link: "https://www.borealcoffee.ch/",
       text: "I re-created the frontend of Boreal Coffee's official web app because I got attracted to their beautiful UI. It was a great experience for me to build the entire frontend.",
     },
     {
       id: 4,
       src: img4,
       caption: "Wilsonpor",
+      link: "https://www.wilsonlogistics.com/",
       text: "Wilsonport is a multiservice logistics and transport company and I created their website from scratch using the frontend tools I know.",
     },
   ];
@@ -58,9 +62,8 @@ const Project = () => {
                 </p>
                 <div>
                   <a
-                    href="#"
+                    href="#contact"
                     type="button"
-                    id="contact"
                     target="_blank"
                     lass="text-cyan-900 md:text-base text-sm border tracking-widest bg-cyan-300 hover:bg-cyan-400/90 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded md:px-12 px-8 md:py-3 py-3 text-center md:mr-0 ">
                     Case Study
