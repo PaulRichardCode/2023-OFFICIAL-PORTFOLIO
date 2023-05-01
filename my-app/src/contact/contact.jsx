@@ -74,7 +74,7 @@ const Contact = () => {
       </div>
       <p className="mb-5">
         <a
-          href="https://github.com/PaulRichardCode"
+          href="https://github.com/PaulRichardCode/2023-OFFICIAL-PORTFOLIO"
           className="text-gray-400/80 font-normal text-sm font-mono flex justify-center hover:text-cyan-300 hover:transition-colors duration-200">
           Designed & Built by Paul Richard
         </a>
