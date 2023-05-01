@@ -9,6 +9,7 @@ import Jobs from "./jobs/jobs.jsx";
 import Project from "./project/project.jsx";
 import Contact from "./contact/contact.jsx";
 import Resume from "./resume/resume.jsx";
+import { Route, Routes } from "react-router-dom";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -30,6 +31,9 @@ const App = () => {
           <Jobs />
           <Project />
           <Contact />
+          <Routes>
+            <Route path="/resume" element={<Resume />} />
+          </Routes>
           {/* <Resume /> */}
         </div>
       )}

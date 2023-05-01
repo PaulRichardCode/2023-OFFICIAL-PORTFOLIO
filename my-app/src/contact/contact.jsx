@@ -12,7 +12,7 @@ const Contact = () => {
       id="contact"
       class="md:border md:border-cyan-300/5 md:w-1/2 md:mx-auto">
       <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md flex items-center justify-center flex-wrap">
-        <h1 className="text-cyan-300 md:text-xl text-sm md:mb-2 mb-2 md:mr-4 w-11/12 md:w-2/3 font-semibold tracking-tight flex items-center justify-center">
+        <h1 className="text-cyan-300 md:text-xl text-sm md:pt-10 md:mb-2 mb-2 md:mr-4 w-11/12 md:w-2/3 font-semibold tracking-tight flex items-center justify-center">
           <span className="text-cyan-300 md:text-base text-xs md:pr-4 pr-2">
             04.
           </span>{" "}
