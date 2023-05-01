@@ -62,10 +62,10 @@ const Project = () => {
                 </p>
                 <div>
                   <a
-                    href="#contact"
+                    href={image.link}
                     type="button"
                     target="_blank"
-                    lass="text-cyan-900 md:text-base text-sm border tracking-widest bg-cyan-300 hover:bg-cyan-400/90 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded md:px-12 px-8 md:py-3 py-3 text-center md:mr-0 ">
+                    class="text-cyan-900 md:text-base text-sm border tracking-widest bg-cyan-300 hover:bg-cyan-400/90 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded md:px-12 px-8 md:py-3 py-3 text-center md:mr-0 ">
                     Case Study
                   </a>
                 </div>
