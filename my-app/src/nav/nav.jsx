@@ -30,11 +30,12 @@ const Nav = () => {
           </a>
           <div class="flex md:order-2">
             {/* Resume */}
-            <button
+            <a
+              href="/resume"
               type="button"
               class="text-cyan-300 hover:shadow duration-300 hover:shadow-cyan-300 hover:transition-shadow border tracking border-cyan-300  focus:ring-4 focus:outline-none focus:ring-blue-300 font-light md:tracking-wider rounded text-sm px-6 py-2 text-center mr-3 md:mr-0 ">
               Resume
-            </button>
+            </a>
             {/* responsive button */}
             <button
               onClick={toggleMenu}

@@ -71,11 +71,11 @@ const About = () => {
                     FrontEnd developer
                   </h1>
                   <p className="md:text-sm text-xs text-gray-300/70">
-                    To the End <span className="block">2022-2023</span>{" "}
+                    Boreal Coffee<span className="block">2022-2023</span>{" "}
                   </p>
                   <p className="text-xs text-gray-300/50">
-                    Creative brand, website development studio that can bring
-                    your online business dreams to life
+                    I re-created the frontend of Boreal Coffee's official web
+                    app because I got attracted to their beautiful UI.
                   </p>
                 </div>
                 <div className="flex flex-col justify-around md:py-3 md:px-4 text-cyan-300/80 items-start md:rounded-none rounded bg-gray-700/10 md:w-56 sm:h-44 w-36 h-36 px-2">

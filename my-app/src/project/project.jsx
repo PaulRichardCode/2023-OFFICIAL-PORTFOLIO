@@ -15,14 +15,14 @@ const Project = () => {
     },
     {
       id: 2,
-      src: img2,
+      src: img3,
       caption: "Crown melbourne",
       link: "https://www.crownmelbourne.com.au/",
       text: "Crown is a web template that I created targeting the restaurant and food industry which anyone can use to present their business online.",
     },
     {
       id: 3,
-      src: img3,
+      src: img2,
       caption: "Boreal coffee clone",
       link: "https://www.borealcoffee.ch/",
       text: "I re-created the frontend of Boreal Coffee's official web app because I got attracted to their beautiful UI. It was a great experience for me to build the entire frontend.",
