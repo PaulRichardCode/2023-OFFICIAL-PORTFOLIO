@@ -3,7 +3,7 @@ import Logo from "../assets/logo.png";
 import { useState } from "react";
 import About from "../about/about";
 import "./nav.css";
-import { HashLink as Link } from "react-router-hash-link";
+import resume from "../assets/Paul_Richard_resume.pdf";
 
 const Nav = () => {
   /* Functionality */
@@ -31,7 +31,7 @@ const Nav = () => {
           <div class="flex md:order-2">
             {/* Resume */}
             <a
-              href="/resume"
+              href={resume}
               type="button"
               class="text-cyan-300 hover:shadow duration-300 hover:shadow-cyan-300 hover:transition-shadow border tracking border-cyan-300  focus:ring-4 focus:outline-none focus:ring-blue-300 font-light md:tracking-wider rounded text-sm px-6 py-2 text-center mr-3 md:mr-0 ">
               Resume

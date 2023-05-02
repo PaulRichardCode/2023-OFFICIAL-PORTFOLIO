@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Component } from "react";
 import Nav from "./nav/nav.jsx";
 import Home from "./home/home.jsx";
 import Loading from "./loading/loading.js";
@@ -9,6 +9,7 @@ import Jobs from "./jobs/jobs.jsx";
 import Project from "./project/project.jsx";
 import Contact from "./contact/contact.jsx";
 import Resume from "./resume/resume.jsx";
+import { Container } from "semantic-ui-react";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -16,6 +17,12 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => setLoading(false), 3000);
   }, []);
+
+  /*   switch (window.location.pathname) {
+    case "/resume":
+      Component = <Resume />;
+      break;
+  } */
 
   return (
     <div>
@@ -30,6 +37,7 @@ const App = () => {
           <Jobs />
           <Project />
           <Contact />
+
           {/* <Resume /> */}
         </div>
       )}
