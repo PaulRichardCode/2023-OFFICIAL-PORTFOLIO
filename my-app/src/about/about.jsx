@@ -2,8 +2,24 @@ import React from "react";
 import Handy from "../assets/handpoint.png";
 import { FiAward, FiFolder } from "react-icons/fi";
 import { FiUser } from "react-icons/fi";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
 
 const About = () => {
+  const boxVariant = {
+    visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
+    hidden: { opacity: 0, scale: 0 },
+  };
+
+  useEffect(() => {
+    if (inView) {
+      control.start("visible");
+    } else {
+      control.start("hidden");
+    }
+  }, [control, inView]);
+
   return (
     <div id="about" className="md:my-20 md:w-3/4 md:mx-auto mx-3 mt-72">
       <div className="md:pl-44 md:pt-20 pt-16">
@@ -17,17 +33,25 @@ const About = () => {
       {/* image*/}
 
       <div className="md:flex md:justify-around md:items-center">
-        <div className="md:opacity-90 opacity-20 md:left-0 md:-top-20 left-1/2 mt-16 top-4/5 md:rotate-0 -rotate-180 md:relative absolute">
+        <motion.div
+          animate={{ x: 10 }}
+          initial={{ x: 0 }}
+          className="md:opacity-90 opacity-20 md:left-0 md:-top-20 left-1/2 mt-16 top-4/5 md:rotate-0 -rotate-180 md:relative absolute">
           <img
             src={Handy}
             alt="pointing hand"
             className="cursor-pointer md:w-auto md:h-auto w-40 opacity-80 hover:opacity-100 hover:transition-opacity"
           />
-        </div>
+        </motion.div>
 
         {/* Experience client and projects completed */}
 
-        <div className="lg:w-1/2 md:w-2/3 flex flex-col md:py-0 py-6 justify-around text-gray-300">
+        <motion.div
+          ref={ref}
+          variants={boxVariant}
+          initial="hidden"
+          animate={control}
+          className="lg:w-1/2 md:w-2/3 flex flex-col md:py-0 py-6 justify-around text-gray-300">
           <div className="flex md:flex-row flex-wrap md:mx-0 md:gap-0 gap-3 md:justify-around md:flex-nowrap sm:justify-between md:w-full w-11/12 mx-auto md:mb-2 mb-10">
             <div className="flex flex-col justify-around py-8 items-center relative rounded-2xl bg-gray-700/10 md:w-40 sm:h-40 w-36 h-36 ">
               <FiAward className="text-3xl mb-4 text-cyan-300" />
@@ -85,7 +109,7 @@ const About = () => {
               products and digital experiences for a variety of clients.
             </p>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
