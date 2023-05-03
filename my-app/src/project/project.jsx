@@ -3,8 +3,26 @@ import img1 from "../assets/dopefolio.jpeg";
 import img2 from "../assets/boreal-coffee-clone.jpeg";
 import img3 from "../assets/crown-template.jpeg";
 import img4 from "../assets/wilsonport.jpeg";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
 
 const Project = () => {
+  const boxVariant = {
+    visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
+    hidden: { opacity: 0, x: -100 },
+  };
+
+  const control = useAnimation();
+  const [ref, inView] = useInView();
+  useEffect(() => {
+    if (inView) {
+      control.start("visible");
+    } else {
+      control.start("hidden");
+    }
+  }, [control, inView]);
+
   const images = [
     {
       id: 1,
@@ -43,7 +61,12 @@ const Project = () => {
           Work & Projects{" "}
           <span className="lg:w-16 md:bg-gray-300/70 md:h-px md:ml-8 md:opacity-40 "></span>
         </h1>
-        <div className="flex flex-col justify-center">
+        <motion.div
+          ref={ref}
+          variants={boxVariant}
+          initial="hidden"
+          animate={control}
+          className="flex flex-col justify-center">
           {images.map((image) => (
             <div
               key={image.id}
@@ -72,7 +95,7 @@ const Project = () => {
               </div>
             </div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </div>
   );

@@ -1,7 +1,26 @@
 import React from "react";
 import TextSphare from "../components/TextShpere";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
 
 const About = () => {
+  const boxVariant = {
+    visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
+    hidden: { opacity: 0, x: -100 },
+  };
+
+  const control = useAnimation();
+  const [ref, inView] = useInView();
+
+  useEffect(() => {
+    if (inView) {
+      control.start("visible");
+    } else {
+      control.start("hidden");
+    }
+  }, [control, inView]);
+
   return (
     <div id="jobs" className="md:py-20 md:w-full md:mx-0 mx-3 mt-10">
       <div className="md:w-3/4 md:mx-auto">
@@ -15,7 +34,12 @@ const About = () => {
           {/* Experience client and projects completed.*/}
           <div className="md:flex md:justify-between md:items-center my-5">
             {/* Texts */}
-            <div className="lg:w-5/12 md:w-2/3 md:flex md:flex-row md:items-start flex-col md:py-6 justify-between text-gray-300">
+            <motion.div
+              ref={ref}
+              variants={boxVariant}
+              initial="hidden"
+              animate={control}
+              className="lg:w-5/12 md:w-2/3 md:flex md:flex-row md:items-start flex-col md:py-6 justify-between text-gray-300">
               {/* about me text */}
               <div className="text-gray-400/80 md:mx-0 md:w-full mx-auto w-11/12 ">
                 <p className="md:mb-6 mb-2 text-sm md:text-base">
@@ -58,7 +82,7 @@ const About = () => {
                   me.
                 </p>
               </div>
-            </div>
+            </motion.div>
             {/* Animation + charts */}
             <div className="flex flex-col md:w-1/2 items-center ">
               <div className="md:w-1/2 w-1/12 md:h-60">

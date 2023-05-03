@@ -8,7 +8,7 @@ import { useEffect } from "react";
 const Home = () => {
   const boxVariant = {
     visible: { opacity: 1, scale: 1, transition: { duration: 1 } },
-    hidden: { opacity: 0, scale: 0 },
+    hidden: { opacity: 0, scale: 0.5 },
   };
   return (
     <div className="relative w-full max-h-screen md:mx-0">

@@ -9,8 +9,11 @@ import { useEffect } from "react";
 const About = () => {
   const boxVariant = {
     visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
-    hidden: { opacity: 0, scale: 0 },
+    hidden: { opacity: 0, scale: 0.5 },
   };
+
+  const control = useAnimation();
+  const [ref, inView] = useInView();
 
   useEffect(() => {
     if (inView) {
@@ -33,10 +36,7 @@ const About = () => {
       {/* image*/}
 
       <div className="md:flex md:justify-around md:items-center">
-        <motion.div
-          animate={{ x: 10 }}
-          initial={{ x: 0 }}
-          className="md:opacity-90 opacity-20 md:left-0 md:-top-20 left-1/2 mt-16 top-4/5 md:rotate-0 -rotate-180 md:relative absolute">
+        <motion.div className="md:opacity-90 opacity-20 md:left-0 md:-top-20 left-1/2 mt-16 top-4/5 md:rotate-0 -rotate-180 md:relative absolute">
           <img
             src={Handy}
             alt="pointing hand"
