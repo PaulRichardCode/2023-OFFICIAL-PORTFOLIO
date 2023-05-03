@@ -5,13 +5,37 @@ import { FiTwitter } from "react-icons/fi";
 import { FiLinkedin } from "react-icons/fi";
 import { FiInstagram } from "react-icons/fi";
 import { FiMail } from "react-icons/fi";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
 
 const Contact = () => {
+  const boxVariant = {
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+    hidden: { opacity: 0, y: -100 },
+  };
+
+  const control = useAnimation();
+  const [ref, inView] = useInView();
+
+  useEffect(() => {
+    if (inView) {
+      control.start("visible");
+    } else {
+      control.start("hidden");
+    }
+  }, [control, inView]);
+
   return (
     <section
       id="contact"
       class="md:border md:border-cyan-300/5 md:w-1/2 md:mx-auto">
-      <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md flex items-center justify-center flex-wrap">
+      <motion.div
+        ref={ref}
+        variants={boxVariant}
+        initial="hidden"
+        animate={control}
+        class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md flex items-center justify-center flex-wrap">
         <h1 className="text-cyan-300 md:text-xl text-sm md:pt-10 md:mb-2 mb-2 md:mr-4 w-11/12 md:w-2/3 font-semibold tracking-tight flex items-center justify-center">
           <span className="text-cyan-300 md:text-base text-xs md:pr-4 pr-2">
             04.
@@ -71,8 +95,8 @@ const Contact = () => {
             </li>
           </ul>
         </div>
-      </div>
-      <p className="mb-5">
+      </motion.div>
+      <p className="pb-5">
         <a
           href="https://github.com/PaulRichardCode/2023-OFFICIAL-PORTFOLIO"
           className="text-gray-400/80 font-normal text-sm font-mono flex justify-center hover:text-cyan-300 hover:transition-colors duration-200">
