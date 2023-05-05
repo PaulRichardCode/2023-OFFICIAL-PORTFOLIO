@@ -58,7 +58,7 @@ const About = () => {
                 </p>
                 <p className="md:mb-6 mb-2 text-sm md:text-base">
                   {" "}
-                  I also have experience with poular open-source CMS like
+                  I also have experience with popular open-source CMS like
                   (WordPress, Drupal, Magento, Keystone.js and others) .
                 </p>
 
