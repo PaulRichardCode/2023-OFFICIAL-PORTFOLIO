@@ -85,13 +85,13 @@ const About = () => {
             </motion.div>
             {/* Animation + charts */}
             <div className="flex flex-col md:w-1/2 items-center ">
-              <div className="md:w-1/2 w-1/12 md:h-60">
+              <div className="md:w-5/6 w-1/12 md:h-60">
                 <TextSphare />
               </div>
               {/* charts */}
               <div className="md:flex md:justify-between md:gap-5 flex gap-3">
-                <div className="flex flex-col justify-around md:py-3 md:px-4 text-cyan-300/80 items-start md:rounded-none rounded bg-gray-700/10 md:w-56 sm:h-44 w-36 h-36 px-2">
-                  <h1 className=" md:text-lg text-xs text-white">
+                <div className="flex flex-col justify-around md:py-3 md:px-4 text-cyan-300/80 items-start md:rounded-none rounded bg-gray-700/10 md:w-56 md:h-44 w-36 h-40 px-2">
+                  <h1 className=" md:text-lg text-xs tracking-wide font-semibold text-white">
                     FrontEnd developer
                   </h1>
                   <p className="md:text-sm text-xs text-gray-300/70">
@@ -99,12 +99,12 @@ const About = () => {
                   </p>
                   <p className="text-xs text-gray-300/50">
                     I re-created the frontend of Boreal Coffee's official web
-                    app because I got attracted to their beautiful UI.
+                    app. I worked for them for a few months.
                   </p>
                 </div>
-                <div className="flex flex-col justify-around md:py-3 md:px-4 text-cyan-300/80 items-start md:rounded-none rounded bg-gray-700/10 md:w-56 sm:h-44 w-36 h-36 px-2">
-                  <h1 className="md:text-lg text-xs text-white">
-                    MobileApp developer
+                <div className="flex flex-col justify-around md:py-3 md:px-4 text-cyan-300/80 items-start md:rounded-none rounded bg-gray-700/10 md:w-56 md:h-44 w-36 h-40 px-2">
+                  <h1 className=" md:text-lg text-xs tracking-wide font-semibold text-white">
+                    App developer
                   </h1>
                   <p className="md:text-sm text-xs  text-gray-300/70">
                     Upwork <span className="block">2022-2023</span>{" "}

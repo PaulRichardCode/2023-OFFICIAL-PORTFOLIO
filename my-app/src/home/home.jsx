@@ -55,7 +55,7 @@ const Home = () => {
           </p>
           <div>
             <a
-              href="#"
+              href="#contact"
               type="button"
               class="text-cyan-300 duration-300 md:text-base text-sm border hover:shadow hover:shadow-cyan-300 hover:transition-shadow tracking-widest border-cyan-300  focus:ring-4 focus:outline-none focus:ring-blue-300 font-light rounded md:px-12 px-10 md:py-3 py-4 text-center mr-3 md:mr-0 ">
               Contact Me!
