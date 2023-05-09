@@ -89,29 +89,29 @@ const About = () => {
                 <TextSphare />
               </div>
               {/* charts */}
-              <div className="md:flex md:justify-between md:gap-5 flex gap-3">
-                <div className="flex flex-col justify-around md:py-3 md:px-4 text-cyan-300/80 items-start md:rounded-none rounded bg-gray-700/10 md:w-56 md:h-44 w-36 h-40 px-2">
-                  <h1 className=" md:text-lg text-xs tracking-wide font-semibold text-white">
+              <div className="md:flex md:justify-between md:w-auto w-full md:gap-5 flex justify-evenly gap-3">
+                <div className="flex flex-col justify-around md:py-3 md:px-4 text-cyan-300/80 items-start md:rounded-none rounded bg-gray-700/10 md:w-56 md:h-44 w-44 h-40 p-2">
+                  <h1 className=" md:text-lg md:tracking-tight text-sm tracking-wide md:font-normal font-semibold text-white">
                     FrontEnd developer
                   </h1>
-                  <p className="md:text-sm text-xs text-gray-300/70">
+                  <p className="md:text-sm text-xs text-gray-300">
                     Boreal Coffee<span className="block">2022-2023</span>{" "}
                   </p>
                   <p className="text-xs text-gray-300/50">
                     I re-created the frontend of Boreal Coffee's official web
-                    app. I worked for them for a few months.
+                    app. I worked for them for a months.
                   </p>
                 </div>
-                <div className="flex flex-col justify-around md:py-3 md:px-4 text-cyan-300/80 items-start md:rounded-none rounded bg-gray-700/10 md:w-56 md:h-44 w-36 h-40 px-2">
-                  <h1 className=" md:text-lg text-xs tracking-wide font-semibold text-white">
+                <div className="flex flex-col justify-around md:py-3 md:px-4 text-cyan-300/80 items-start md:rounded-none rounded bg-gray-700/10 md:w-56 md:h-44 w-44 h-40 p-2">
+                  <h1 className=" md:text-lg md:tracking-tight text-sm tracking-wide md:font-normal font-semibold text-white">
                     App developer
                   </h1>
-                  <p className="md:text-sm text-xs  text-gray-300/70">
+                  <p className="md:text-sm text-xs  text-gray-300">
                     Upwork <span className="block">2022-2023</span>{" "}
                   </p>
                   <p className="text-xs text-gray-300/50">
                     Creating Beautiful mobile Apps for clients on Upwork. I can
-                    also bring your mobile app dreams to life
+                    also bring your app dreams to life
                   </p>
                 </div>
               </div>
