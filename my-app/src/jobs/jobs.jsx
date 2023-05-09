@@ -46,7 +46,7 @@ const About = () => {
                   Since beginning my journey as a freelance developer 2 years
                   ago, I’ve done remote work for agencies, consulted for
                   startups, and collaborated with talented people to create web
-                  products for both business and consumer use
+                  products for both business and consumer use.
                 </p>
 
                 <p className="md:mb-6 mb-2 text-sm md:text-base">
