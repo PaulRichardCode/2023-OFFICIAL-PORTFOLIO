@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
-
-import "../styles/TextShpere.css";
+import "./styles/TextShpere.css";
 
 // Importing TagCloud package
 import TagCloud from "TagCloud";
