@@ -1,50 +1,50 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
+import TagCloud from "TagCloud";
 import "./styles/TextShpere.css";
 
-// Importing TagCloud package
-import TagCloud from "TagCloud";
+const TextSphere = () => {
+  const containerRef = useRef(null);
 
-const TextShpere = () => {
-  // Animation settings for Text Cloud
   useEffect(() => {
+    const container = containerRef.current;
+    const texts = [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "NodeJs",
+      "React",
+      "React Native",
+      "API",
+      "Git",
+      "TypeScript",
+      "Tailwind",
+      "GitHub",
+      "Next Js",
+    ];
+    const options = {
+      radius: 150,
+      maxSpeed: "fast",
+      initSpeed: "normal",
+      keep: true,
+      loop: true,
+      lockX: true,
+      lockY: true,
+    };
+
+    TagCloud(container, texts, options);
+
     return () => {
-      const container = ".tagcloud";
-      const texts = [
-        "HTML",
-        "CSS",
-        "SASS",
-        "JavaScript",
-        "React",
-        "React Native",
-        "Next",
-        "NodeJS",
-        "API",
-        "Jquery",
-        "ES6",
-        "GIT",
-        "GITHUB",
-        "TypeScript",
-      ];
-
-      const options = {
-        radius: 150,
-        maxSpeed: "fast",
-        initSpeed: "normal",
-        keep: true,
-      };
-
-      TagCloud(container, texts, options);
+      TagCloud(container, [], {});
     };
   }, []);
-
   return (
     <>
       <div className="text-shpere">
         {/* span tag className must be "tagcloud"  */}
-        <span className="tagcloud"></span>
+        <span className="tagcloud" ref={containerRef}></span>
       </div>
     </>
   );
 };
 
-export default TextShpere;
+export default TextSphere;
