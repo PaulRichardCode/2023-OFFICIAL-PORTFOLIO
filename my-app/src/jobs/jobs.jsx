@@ -22,7 +22,7 @@ const About = () => {
   }, [control, inView]);
 
   return (
-    <div id="jobs" className="py-20 md:w-full md:mx-0 mx-3 md:mt-10 ">
+    <div id="jobs" className="pt-20 md:w-full md:mx-0 mx-3 md:mt-10 ">
       <div className="md:w-3/4 md:mx-auto">
         <h1 className="text-gray-300 md:text-3xl text-2xl md:mb-0 mb-10 mr-8 w-11/12 md:w-1/2 font-semibold tracking-tight flex items-center md:justify-start justify-center">
           <span className="text-cyan-300 md:text-2xl text-xl pr-4">02.</span>{" "}

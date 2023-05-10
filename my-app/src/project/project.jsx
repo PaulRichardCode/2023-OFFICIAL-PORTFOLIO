@@ -54,7 +54,7 @@ const Project = () => {
     },
   ];
   return (
-    <div id="project" className="md:py-20 md:w-full md:mx-0 mx-3 md:mt-5 mt-16">
+    <div id="project" className="py-20 md:w-full md:mx-0 mx-3 md:mt-5">
       <div className="md:w-3/4 md:mx-auto ">
         <h1 className="text-gray-300 md:text-3xl text-2xl md:mb-5 mb-10 mr-8 w-11/12 md:w-1/2 font-semibold tracking-tight flex items-center md:justify-start justify-center">
           <span className="text-cyan-300 md:text-2xl text-xl pr-4">03.</span>{" "}
