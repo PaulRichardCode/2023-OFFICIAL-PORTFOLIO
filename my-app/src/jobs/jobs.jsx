@@ -110,7 +110,7 @@ const About = () => {
                     Xenos <span className="block">2022-2023</span>{" "}
                   </p>
                   <p className="text-xs text-gray-300/50">
-                  Implemeting Payment Authentication, Maintaining the server and database,   
+                  Implemetation of Authentication and Security, server and database Maintainace,   
                   </p>
                 </div>
               </div>
