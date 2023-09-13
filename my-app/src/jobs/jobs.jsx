@@ -52,7 +52,7 @@ const About = () => {
                 <p className="md:mb-6 mb-2 text-sm md:text-base">
                   I create successful responsive websites that are fast, easy to
                   use, and built with best practices. The main area of my
-                  expertise is Full-Stack development, HTML & CSS, JS, React, C#, ASP.NET, Azure, mySQL for
+                  expertise is Full-Stack development, <span className="text-cyan-300"> HTML & CSS, JS, React, C#, ASP.NET, Tailwind, TypeScript RESTful API, Azure, mySQL </span> for
                   building small and medium web apps, custom plugins, features,
                   animations, and coding interactive layouts.
                 </p>
