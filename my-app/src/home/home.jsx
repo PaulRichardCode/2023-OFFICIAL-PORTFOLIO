@@ -41,7 +41,7 @@ const Home = () => {
             I build things for the web.
           </h1>
           <p className="md:text-base text-sm pl-1 text-gray-400/80 md:font-normal font-normal md:mb-6 lg:mb-12 mb-10 md:w-2/3">
-            I’m a Front-End Developer specializing in building (and occasionally
+            I’m a Full-Stack Developer specializing in building (and occasionally
             designing) exceptional digital experiences. Currently, I’m focused
             on building accessible services for people around the{" "}
             <a

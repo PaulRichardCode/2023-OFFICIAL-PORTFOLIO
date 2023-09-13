@@ -66,13 +66,13 @@ const About = () => {
             <div className=" flex flex-col justify-around py-8 items-center rounded-2xl bg-gray-700/10 md:w-40 sm:h-40 w-36 h-36">
               <FiFolder className="text-3xl mb-4 text-cyan-300" />
               <h2 className="text-base font-medium">Projects</h2>
-              <p className="text-xs text-gray-300/50 ">25+ Completed</p>
+              <p className="text-xs text-gray-300/50 ">40+ Completed</p>
             </div>
           </div>
           {/* about me text */}
           <div className="text-gray-400/80 md:mx-0 md:w-full mx-auto w-11/12 ">
             <p className="md:mb-6 mb-2 text-sm md:text-base">
-              Hello! My name is Richard, I am a Front-End Developer located in
+              Hello! My name is Richard, I am a Full-Stack Developer located in
               Nigeria. I enjoy creating things that live on the internet. I
               would describe myself as a highly skilled professional with a
               passion for creating beautiful and functional user interfaces.
