@@ -52,7 +52,7 @@ const About = () => {
                 <p className="md:mb-6 mb-2 text-sm md:text-base">
                   I create successful responsive websites that are fast, easy to
                   use, and built with best practices. The main area of my
-                  expertise is Full-Stack development, HTML & CSS, JS, React, C#, ASP.NET, Azure
+                  expertise is Full-Stack development, HTML & CSS, JS, React, C#, ASP.NET, Azure, mySQL for
                   building small and medium web apps, custom plugins, features,
                   animations, and coding interactive layouts.
                 </p>
@@ -104,7 +104,7 @@ const About = () => {
                 </div>
                 <div className="flex flex-col justify-around md:py-3 md:px-4 text-cyan-300/80 items-start md:rounded-none rounded bg-gray-700/10 md:w-56 md:h-44 w-44 h-40 p-2">
                   <h1 className=" md:text-lg md:tracking-tight text-sm tracking-wide md:font-normal font-semibold text-white">
-                    App developer
+                    Full-Stack developer
                   </h1>
                   <p className="md:text-sm text-xs  text-gray-300">
                     Upwork <span className="block">2022-2023</span>{" "}
