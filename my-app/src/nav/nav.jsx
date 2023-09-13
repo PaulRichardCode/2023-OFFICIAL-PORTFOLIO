@@ -28,7 +28,7 @@ const Nav = () => {
       className="">
       <nav class="px-2 sm:py-0 py-2 bg-gray-900/50 sm:px-4 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
         <div class="container flex flex-wrap items-center justify-between mx-auto ">
-          {/* logo */}
+          {/* */}
           <a href="#" class="flex items-center">
             <img
               src={Logo}
