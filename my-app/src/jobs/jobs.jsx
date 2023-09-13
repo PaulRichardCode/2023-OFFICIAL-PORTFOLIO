@@ -43,7 +43,7 @@ const About = () => {
               {/* about me text */}
               <div className="text-gray-400/80 md:mx-0 md:w-full mx-auto w-11/12 ">
                 <p className="md:mb-6 mb-2 text-sm md:text-base">
-                  Since beginning my journey as a freelance developer 2 years
+                  Since beginning my journey as a Full-Stack developer 5 years
                   ago, I’ve done remote work for agencies, consulted for
                   startups, and collaborated with talented people to create web
                   products for both business and consumer use.
@@ -52,8 +52,8 @@ const About = () => {
                 <p className="md:mb-6 mb-2 text-sm md:text-base">
                   I create successful responsive websites that are fast, easy to
                   use, and built with best practices. The main area of my
-                  expertise is front-end development, HTML, CSS, JS, building
-                  small and medium web apps, custom plugins, features,
+                  expertise is Full-Stack development, HTML & CSS, JS, React, C#, ASP.NET, Azure
+                  building small and medium web apps, custom plugins, features,
                   animations, and coding interactive layouts.
                 </p>
                 <p className="md:mb-6 mb-2 text-sm md:text-base">
