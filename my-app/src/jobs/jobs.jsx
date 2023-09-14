@@ -70,7 +70,7 @@ const About = () => {
                     className="text-cyan-300 hover:underline hover:transition-all">
                     LinkedIn
                   </a>{" "}
-                  Profile for more details or just {/* ADD A CONTACT ME HREF */}
+                  Profile for more details or just {/* ADD A CACT ME HREF */}
                   {/* ADD A CONTACT ME HREF */}
                   {/* ADD A CONTACT ME HREF */}
                   <a
