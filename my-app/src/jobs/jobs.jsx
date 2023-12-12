@@ -52,9 +52,14 @@ const About = () => {
                 <p className="md:mb-6 mb-2 text-sm md:text-base">
                   I create successful responsive websites that are fast, easy to
                   use, and built with best practices. The main area of my
-                  expertise is Full-Stack development, <span className="text-cyan-300"> HTML & CSS, JS, React, C#, ASP.NET, Tailwind, TypeScript RESTful API, Azure, mySQL </span> for
-                  building small and medium web apps, custom plugins, features,
-                  animations, and coding interactive layouts.
+                  expertise is Full-Stack development,{" "}
+                  <span className="text-cyan-300">
+                    {" "}
+                    HTML & CSS, JS, React, C#, ASP.NET, Tailwind, TypeScript
+                    RESTful API, Azure, SQL-Server, entity Framework{" "}
+                  </span>{" "}
+                  for building small and medium web apps, custom plugins,
+                  features, animations, and coding interactive layouts.
                 </p>
                 <p className="md:mb-6 mb-2 text-sm md:text-base">
                   {" "}
@@ -92,25 +97,26 @@ const About = () => {
               <div className="md:flex md:justify-between md:w-auto w-full md:gap-5 flex justify-evenly gap-3">
                 <div className="flex flex-col justify-around md:py-3 md:px-4 text-cyan-300/80 items-start md:rounded-none rounded bg-gray-700/10 md:w-56 md:h-44 w-44 h-40 p-2">
                   <h1 className=" md:text-lg md:tracking-tight text-sm tracking-wide md:font-normal font-semibold text-white">
-                    FrontEnd developer
+                    FullStack Developer
                   </h1>
                   <p className="md:text-sm text-xs text-gray-300">
-                    Boreal Coffee<span className="block">2022-2023</span>{" "}
+                    The Crox Group<span className="block">2020-2022</span>{" "}
                   </p>
                   <p className="text-xs text-gray-300/50">
-                    I re-created the frontend of Boreal Coffee's official web
-                    app. I worked for them for a months.
+                    Develop web applications with robust front and back-ends
+                    that work together to track geohazards
                   </p>
                 </div>
                 <div className="flex flex-col justify-around md:py-3 md:px-4 text-cyan-300/80 items-start md:rounded-none rounded bg-gray-700/10 md:w-56 md:h-44 w-44 h-40 p-2">
                   <h1 className=" md:text-lg md:tracking-tight text-sm tracking-wide md:font-normal font-semibold text-white">
-                    BackEnd developer
+                    FullStack developer
                   </h1>
                   <p className="md:text-sm text-xs  text-gray-300">
-                    Xenos <span className="block">2022-2023</span>{" "}
+                    SnapX <span className="block">2022-2023</span>{" "}
                   </p>
                   <p className="text-xs text-gray-300/50">
-                  Implemetation of Authentication and Security, server and database Maintainace,   
+                    Implemetation of Authentication and Security, server and
+                    database Maintainace,
                   </p>
                 </div>
               </div>
