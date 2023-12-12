@@ -15,11 +15,12 @@ const TextSphere = () => {
       "React",
       "C#",
       "Restful API",
-      "MySQL",
+      "SQL-Server",
       "TypeScript",
       "Tailwind",
       "NodeJs",
-      ".NET MVC",
+      "Azure",
+      "Angular",
     ];
     const options = {
       radius: 150,
