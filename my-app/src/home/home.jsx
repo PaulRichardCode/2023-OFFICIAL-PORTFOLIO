@@ -32,24 +32,27 @@ const Home = () => {
         {/* lg:basis-2/3 md:w-full w-5/6 */}
         <div className=" md:mb-0 mb-8 ">
           <p className="md:text-base text-base md:font-normal font-normal pl-1 text-cyan-300 md:mb-5 mb-4 tracking-wide ">
-            Hi, my name is
+            Hi, this is
           </p>
           <h1 className="lg:text-6xl md:text-5xl text-4xl md:mb-6 mb-3 text-gray-300 md:font-bold font-semibold">
-            Paul Richard.
+            FrameMaster Richard
           </h1>
           <h1 className="lg:text-5xl md:text-4xl text-3xl md:mb-6 mb-5 text-gray-400 font-semibold lg:mb-10 md:font-bold">
-            I build things for the web.
+            Elevate Your Social Media Presence, Today.
           </h1>
           <p className="md:text-base text-sm pl-1 text-gray-400/80 md:font-normal font-normal md:mb-6 lg:mb-12 mb-10 md:w-2/3">
-            I’m a Full-Stack Developer specializing in building (and occasionally
-            designing) exceptional digital experiences. Currently, I’m focused
-            on building accessible services for people around the{" "}
+            Hello, I'm Paul Richard, a visual storyteller navigating the digital
+            tapestry. I don't just edit videos; I sculpt narratives, breathing
+            life into pixels. With a cinematic flair and an artisan's touch, I
+            transform raw footage into immersive experiences. Join me on this
+            visual odyssey, where every frame tells a story, and every edit is a
+            brushstroke in the masterpiece of.
             <a
-              href="https://www.world.com/"
+              href="https://www.time.com/"
               target={"_blank"}
               className="text-cyan-300 cursor-pointer hover:underline">
               {" "}
-              world
+              time
             </a>
             .
           </p>
