@@ -5,19 +5,23 @@ import { FiTwitter } from "react-icons/fi";
 import { FiLinkedin } from "react-icons/fi";
 import { FiInstagram } from "react-icons/fi";
 import { FiMail } from "react-icons/fi";
+import { SiUpwork } from "react-icons/si";
+import { FaTiktok } from "react-icons/fa";
 
 const Link = () => {
   return (
     <div className="max-w-2xl fixed z-50">
       <ul className="absolute top-80 left-16">
         <li>
-          <a href="https://github.com/PaulRichardCode" target={"_blank"}>
-            <FiGithub className="text-gray-300/80 text-xl md:block hidden cursor-pointer mb-6 hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
+          <a href="https://www.instagram.com/richardpaul06/" target={"_blank"}>
+            <FiInstagram className="text-gray-300/80 text-xl md:block hidden cursor-pointer mb-6 hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/RichC0DE" target={"_blank"}>
-            <FiTwitter className="text-gray-300/80 text-xl md:block hidden cursor-pointer mb-6 hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
+          <a
+            href="https://www.upwork.com/freelancers/~01e03c85f1fc2571a2"
+            target={"_blank"}>
+            <SiUpwork className="text-gray-300/80 text-xl md:block hidden cursor-pointer mb-6 hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
           </a>
         </li>
         <li>
@@ -28,12 +32,14 @@ const Link = () => {
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/richardpaul06/" target={"_blank"}>
-            <FiInstagram className="text-gray-300/80 text-xl md:block hidden cursor-pointer mb-6 hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
+          <a
+            href="https://www.tiktok.com/@richardevs?lang=en"
+            target={"_blank"}>
+            <FaTiktok className="text-gray-300/80 text-xl md:block hidden cursor-pointer mb-6 hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
           </a>
         </li>
         <li>
-          <a href="https://paulrichardevs@gmail.com" target={"_blank"}>
+          <a href="http://framemasterrichard@gmail.com/" target={"_blank"}>
             <FiMail className="text-cyan-300/80 text-xl md:block hidden cursor-pointer mb-7 hover:text-gray-300/80 hover:-translate-y-1 hover:transition duration-100" />
           </a>
         </li>

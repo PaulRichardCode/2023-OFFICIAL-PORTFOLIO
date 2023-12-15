@@ -43,48 +43,31 @@ const About = () => {
               {/* about me text */}
               <div className="text-gray-400/80 md:mx-0 md:w-full mx-auto w-11/12 ">
                 <p className="md:mb-6 mb-2 text-sm md:text-base">
-                  Since beginning my journey as a Full-Stack developer 5 years
-                  ago, I’ve done remote work for agencies, consulted for
-                  startups, and collaborated with talented people to create web
-                  products for both business and consumer use.
+                  Embarking on my journey as a professional video editor five
+                  years ago, I've engaged in remote collaborations with
+                  agencies, provided consultancy services to startups, and
+                  partnered with skilled individuals to craft compelling video
+                  content for both corporate and consumer audiences.
                 </p>
 
                 <p className="md:mb-6 mb-2 text-sm md:text-base">
-                  I create successful responsive websites that are fast, easy to
-                  use, and built with best practices. The main area of my
-                  expertise is Full-Stack development,{" "}
-                  <span className="text-cyan-300">
-                    {" "}
-                    HTML & CSS, JS, React, C#, ASP.NET, Tailwind, TypeScript
-                    RESTful API, Azure, SQL-Server, entity Framework{" "}
-                  </span>{" "}
-                  for building small and medium web apps, custom plugins,
-                  features, animations, and coding interactive layouts.
-                </p>
-                <p className="md:mb-6 mb-2 text-sm md:text-base">
-                  {" "}
-                  I also have experience with popular open-source CMS like
-                  (WordPress, Drupal, Magento, Keystone.js and others) .
-                </p>
-
-                <p className="md:mb-6 mb-2 text-sm md:text-base">
-                  Visit my{" "}
-                  <a
-                    href="https://www.linkedin.com/in/richard-paul-11321124b/"
-                    target="_blank"
-                    className="text-cyan-300 hover:underline hover:transition-all">
-                    LinkedIn
-                  </a>{" "}
-                  Profile for more details or just {/* ADD A CACT ME HREF */}
-                  {/* ADD A CONTACT ME HREF */}
-                  {/* ADD A CONTACT ME HREF */}
-                  <a
-                    href="https://www.linkedin.com/in/richard-paul-11321124b/"
-                    target="_blank"
-                    className="text-cyan-300 hover:underline hover:transition-all">
-                    Contact
-                  </a>{" "}
-                  me.
+                  I specialize in the art of video editing, employing
+                  industry-leading tools and techniques to deliver seamless and
+                  visually captivating results. -Applying color correction and
+                  grading
+                  <br />
+                  -Skillful audio editing, encompassing music integration and
+                  sound enhancement.
+                  <br />
+                  -Incorporating transitions, visual effects, and motion
+                  graphics for added dynamism.
+                  <br />
+                  -Collaborating effectively with directors, producers, and team
+                  members.
+                  <br />
+                  -Demonstrating attention to detail for a polished and
+                  high-quality final product.
+                  <br />
                 </p>
               </div>
             </motion.div>
@@ -97,26 +80,26 @@ const About = () => {
               <div className="md:flex md:justify-between md:w-auto w-full md:gap-5 flex justify-evenly gap-3">
                 <div className="flex flex-col justify-around md:py-3 md:px-4 text-cyan-300/80 items-start md:rounded-none rounded bg-gray-700/10 md:w-56 md:h-44 w-44 h-40 p-2">
                   <h1 className=" md:text-lg md:tracking-tight text-sm tracking-wide md:font-normal font-semibold text-white">
-                    FullStack Developer
+                    Junior Video Editor
                   </h1>
                   <p className="md:text-sm text-xs text-gray-300">
-                    The Crox Group<span className="block">2020-2022</span>{" "}
+                    Filmless<span className="block">2020-2022</span>{" "}
                   </p>
                   <p className="text-xs text-gray-300/50">
-                    Develop web applications with robust front and back-ends
-                    that work together to track geohazards
+                    provided the fastest, easiest, and most affordable way for
+                    companies to get professional videos.
                   </p>
                 </div>
                 <div className="flex flex-col justify-around md:py-3 md:px-4 text-cyan-300/80 items-start md:rounded-none rounded bg-gray-700/10 md:w-56 md:h-44 w-44 h-40 p-2">
                   <h1 className=" md:text-lg md:tracking-tight text-sm tracking-wide md:font-normal font-semibold text-white">
-                    FullStack developer
+                    Lead Video Editor
                   </h1>
                   <p className="md:text-sm text-xs  text-gray-300">
-                    SnapX <span className="block">2022-2023</span>{" "}
+                    Twine <span className="block">2022-2023</span>{" "}
                   </p>
                   <p className="text-xs text-gray-300/50">
-                    Implemetation of Authentication and Security, server and
-                    database Maintainace,
+                    Responsibilities include video editing, quality control,
+                    project organization, and offering creative input
                   </p>
                 </div>
               </div>

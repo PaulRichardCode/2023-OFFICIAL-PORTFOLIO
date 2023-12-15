@@ -20,4 +20,8 @@ code {
     monospace;
 }
 
+#title {
+  font-family: viga, Arial, Helvetica, sans-serif;
+}
+
 /* width and height of the scrollbar */
