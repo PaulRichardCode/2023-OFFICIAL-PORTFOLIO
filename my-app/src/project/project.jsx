@@ -65,6 +65,8 @@ const Project = () => {
               key={image.id}
               className="flex md:py-5 py-2 md:w-full md:flex-nowrap flex-wrap">
               <video
+                muted
+                loop
                 autoPlay
                 src={image.src}
                 alt={image.caption}
