@@ -47,6 +47,7 @@ const About = () => {
                   ago, I’ve done remote work for agencies, consulted for
                   startups, and collaborated with talented people to create web
                   products for both business and consumer use.
+                  {/* ukihiuuuu */}
                 </p>
 
                 <p className="md:mb-6 mb-2 text-sm md:text-base">
