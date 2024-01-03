@@ -72,39 +72,40 @@ const About = () => {
           {/* about me text */}
           <div className="text-gray-400/80 md:mx-0 md:w-full mx-auto w-11/12 ">
             <p className="md:mb-6 mb-2 text-sm md:text-base">
-              Hello! I'm Richard, a Video Editor with expertise in crafting
-              compelling visual content. Proficient in editing software like
-              Adobe Premiere and Final Cut Pro, I thrive on bringing ideas to
-              life through dynamic video creations. <br />
-              Over the course of my career, I've had the opportunity to
-              collaborate on a diverse range of video projects, gaining valuable
-              experience in various editing techniques and styles.
+              Hello! My name is Richard, and I am a Full-Stack Developer.
+              Specifically with use of PHP and Laravel framework.I enjoy
+              creating things that live on the internet.
             </p>
             <p className="md:mb-6 mb-2 text-sm md:text-base">
-              I've worked with clients ranging from{" "}
+              {" "}
+              I had many opportunities to work in a vast spectrum of web
+              technologies what let me gather a significant amount of various
+              experience.
+            </p>
+            <p className="md:mb-6 mb-2 text-sm md:text-base">
+              I’ve had the privilege of working at an{" "}
               <a
-                href="https://youtu.be/BI4DR_uYKFU?si=PT1_SCc1yC1Q5aYb"
+                href="https://us.mullenlowe.com/"
                 target="_blank"
                 className="text-cyan-300 hover:underline hover:transition-all">
-                Youtubers and Influencers
-              </a>
-              , as well as
-              <a
-                href="https://nurp.com/"
-                target="_blank"
-                className="text-cyan-300 hover:underline hover:transition-all">
-                {" "}
-                start-ups
+                advertising agency
               </a>
               , a{" "}
               <a
-                href="https://wwe.com/"
+                href="https://starry.com/"
+                target="_blank"
+                className="text-cyan-300 hover:underline hover:transition-all">
+                start-up
+              </a>
+              , a{" "}
+              <a
+                href="https://xenos.com/"
                 target="_blank"
                 className="text-cyan-300 hover:underline hover:transition-all">
                 huge corporation.
               </a>{" "}
-              My current focus revolves around developing visually appealing and
-              inclusive video content for a diverse client.
+              My main focus these days is building accessible, inclusive
+              products and digital experiences for a variety of clients.
             </p>
           </div>
         </motion.div>

@@ -1,5 +1,5 @@
 import React from "react";
-import Black from "../assets/bgvid1.mp4";
+import Black from "../assets/black.mp4";
 import Sunset from "../assets/sunset.mp4";
 import Handshake from "../assets/shakinghands.png";
 import { motion, useAnimation } from "framer-motion";
@@ -11,13 +11,13 @@ const Home = () => {
     hidden: { opacity: 0, scale: 0.5 },
   };
   return (
-    <div className="relative w-full max-h-screen md:mx-0 ">
+    <div className="relative w-full max-h-screen md:mx-0">
       <video
         autoPlay
         muted
         loop
         src={Black}
-        className="md:opacity-10 opacity-0 md:pb-16 pb-28 min-w-full max-h-1/2"></video>
+        className="md:opacity-5 opacity-0 py-16 min-w-full max-h-1/2"></video>
 
       {/* Home */}
 
@@ -32,27 +32,24 @@ const Home = () => {
         {/* lg:basis-2/3 md:w-full w-5/6 */}
         <div className=" md:mb-0 mb-8 ">
           <p className="md:text-base text-base md:font-normal font-normal pl-1 text-cyan-300 md:mb-5 mb-4 tracking-wide ">
-            Hi, This is
+            Hi, my name is
           </p>
-          <h1
-            id="title"
-            className="lg:text-5 xl md:text-5xl text-3xl md:mb-6 mb-3 text-gray-300 md:font-bold font-semibold ">
-            Frame.Master.Richard
+          <h1 className="lg:text-6xl md:text-5xl text-4xl md:mb-6 mb-3 text-gray-300 md:font-bold font-semibold">
+            Paul Richard.
           </h1>
-          <h1 className="lg:text-2xl md:text-2xl text-2xl md:mb-6 mb-5 text-gray-400 font-semibold lg:mb-5 md:font-bold">
-            Elevate Your Social Media Presence, Today.
+          <h1 className="lg:text-5xl md:text-4xl text-3xl md:mb-6 mb-5 text-gray-400 font-semibold lg:mb-10 md:font-bold">
+            I build things for the web.
           </h1>
-          <p className="md:text-base text-sm pl-1 text-gray-400/80 md:font-normal font-normal md:mb-6 lg:mb-6 mb-10 md:w-2/3">
-            Hello, I'm Paul Richard, I don't just edit videos; I sculpt
-            narratives, breathing life into pixels. With a cinematic flair and
-            an artisan's touch, I transform raw footage into immersive
-            experiences. Join me on this visual odyssey, where every frame tells
-            a story, and every edit is a brushstroke in the masterpiece of{" "}
+          <p className="md:text-base text-sm pl-1 text-gray-400/80 md:font-normal font-normal md:mb-6 lg:mb-12 mb-10 md:w-2/3">
+            I’m a Full-Stack Developer specializing in building (and
+            occasionally designing) exceptional digital experiences. Currently,
+            I’m focused on building accessible services for people around the{" "}
             <a
-              href="https://www.time.com/"
+              href="https://www.world.com/"
               target={"_blank"}
               className="text-cyan-300 cursor-pointer hover:underline">
-              time
+              {" "}
+              world
             </a>
             .
           </p>

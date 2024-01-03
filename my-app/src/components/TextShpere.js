@@ -8,19 +8,19 @@ const TextSphere = () => {
   useEffect(() => {
     const container = containerRef.current;
     const texts = [
-      "Adobe Premiere Pro",
-      "Final Cut Pro",
-      "Davinci Resolve",
-      "Capcut",
-      "Adobe After Effects",
-      "color grading",
-      "Audio editing",
-      "communication",
-      "Time Management",
-      "TIktok",
-      "StoryTelling",
-      "greenscreen",
-      "Stock Footage  ",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Laravel",
+      "React",
+      "WordPress",
+      "RestAPI",
+      "MySQL",
+      "APACHE",
+      "CodeIgniter",
+      "NodeJs",
+      "AWS",
+      "PHP",
     ];
     const options = {
       radius: 150,

@@ -3,7 +3,7 @@ import Logo from "../assets/logo.png";
 import { useState } from "react";
 import About from "../about/about";
 import "./nav.css";
-import resume from "../assets/resume1.pdf";
+import resume from "../assets/Paul_Richard_resume2.pdf";
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 

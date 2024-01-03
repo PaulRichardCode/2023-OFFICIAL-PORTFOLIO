@@ -1,7 +1,7 @@
 import React from "react";
-import img1 from "../assets/foodNetwork.mp4";
-import img2 from "../assets/promo1.mp4";
-import img3 from "../assets/promo2.mp4";
+import img1 from "../assets/dopefolio.jpeg";
+import img2 from "../assets/boreal-coffee-clone.jpeg";
+import img3 from "../assets/crown-template.jpeg";
 import img4 from "../assets/wilsonport.jpeg";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -27,23 +27,30 @@ const Project = () => {
     {
       id: 1,
       src: img1,
-      caption: "Entertaining Shorts",
-      link: "https://drive.google.com/drive/folders/1Ruu0Sk3nRBWwHETb9tx0SwDY-cpfxHUo",
-      text: "Elevate your brand with captivating shortform videos – a powerful, concise tool for increased engagement and business growth.",
+      caption: "Dopefolio",
+      link: "https://dopefolio.netlify.app/",
+      text: "Dopefolio is a successful Open-Source project that I created which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally",
     },
     {
       id: 2,
       src: img3,
-      caption: "Long Form Contents",
-      link: "https://drive.google.com/drive/folders/1lAuegpui3ri3xcSCwtP0u0-TqZVZ_gs2",
-      text: "i will provide Entertaining dynamic visuals that enhance storytelling, engage audiences, and elevate the overall viewing experience.",
+      caption: "Crown melbourne",
+      link: "https://www.crownmelbourne.com.au/",
+      text: "Crown is a web template that I created targeting the restaurant and food industry which anyone can use to present their business online.",
     },
     {
       id: 3,
       src: img2,
-      caption: "Promotional videos",
-      link: "https://drive.google.com/drive/folders/1FOBlZo4IfgeaejtLDn4T1A5w3eCORns0",
-      text: "Transform your brand narrative into a cinematic journey, fusing creativity and strategy for an unforgettable viewer experience that sparks lasting connections and propels business triumphs.",
+      caption: "Boreal coffee clone",
+      link: "https://www.borealcoffee.ch/",
+      text: "I re-created the frontend of Boreal Coffee's official web app because I got attracted to their beautiful UI. It was a great experience for me to build the entire frontend.",
+    },
+    {
+      id: 4,
+      src: img4,
+      caption: "Wilsonpor",
+      link: "https://www.wilsonlogistics.com/",
+      text: "Wilsonport is a multiservice logistics and transport company and I created their website from scratch using the frontend tools I know.",
     },
   ];
   return (
@@ -64,10 +71,7 @@ const Project = () => {
             <div
               key={image.id}
               className="flex md:py-5 py-2 md:w-full md:flex-nowrap flex-wrap">
-              <video
-                muted
-                loop
-                autoPlay
+              <img
                 src={image.src}
                 alt={image.caption}
                 className="md:w-3/5 md:h-auto w-screen h-56 "
@@ -85,7 +89,7 @@ const Project = () => {
                     type="button"
                     target="_blank"
                     class="text-cyan-900 md:text-base text-sm border tracking-widest bg-cyan-300 hover:transition-all hover:bg-cyan-400/90 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded md:px-12 px-8 md:py-3 py-3 text-center md:mr-0 ">
-                    Watch More
+                    Case Study
                   </a>
                 </div>
               </div>
