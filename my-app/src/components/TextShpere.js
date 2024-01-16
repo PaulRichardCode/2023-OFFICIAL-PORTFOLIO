@@ -41,7 +41,7 @@ const TextSphere = () => {
   return (
     <>
       <div className="text-shpere">
-        {/* span tag className must be "tagcloud"  */}
+        {/* span t  olkag className must be "tagcloud"  */}
         <span className="tagcloud" ref={containerRef}></span>
       </div>
     </>
