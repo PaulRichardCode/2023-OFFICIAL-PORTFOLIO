@@ -29,7 +29,7 @@ const Project = () => {
       src: img1,
       caption: "Dopefolio",
       link: "https://dopefolio.netlify.app/",
-      text: "Dopefolio is a successful Open-Source project that I created which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally",
+      text: "Dopefolio is a successful Open-Source project that I created which have been featured on some of the biggest tech sites like CSS-Tricks.",
     },
     {
       id: 2,
@@ -48,7 +48,7 @@ const Project = () => {
     {
       id: 4,
       src: img4,
-      caption: "Wilsonpor Recuitment form",
+      caption: "Wilsonpor Recuitment Portal",
       link: "https://www.wilsonlogistics.com/",
       text: "worked on Wilsonport transport web portal where prospective drivers can submit their applications online. where i Implement document verification processes to ensure the authenticity and validity of submitted documents. Also  Integrate third-party background check services to conduct pre-employment screenings.",
     },
