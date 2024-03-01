@@ -36,7 +36,7 @@ const Project = () => {
       src: img3,
       caption: "Crown Hotel Booking",
       link: "https://www.crownmelbourne.com.au/",
-      text: "Crown is a website that I created Ensuring  a robust booking system that allows users to check room availability, make reservations, and manage their bookings online and minimizing page load times..",
+      text: "Crown is a website that I created having a robust booking system that allows users to check room availability, make reservations, and manage their bookings online and minimizing page load times..",
     },
     {
       id: 3,

@@ -99,7 +99,7 @@ const About = () => {
                     FullStack Developer
                   </h1>
                   <p className="md:text-sm text-xs text-gray-300">
-                    The Crox Group<span className="block">2020-2022</span>{" "}
+                    The Crox Group<span className="block">2021-2022</span>{" "}
                   </p>
                   <p className="text-xs text-gray-300/50">
                     Develop web applications with robust front and back-ends
