@@ -34,23 +34,23 @@ const Project = () => {
     {
       id: 2,
       src: img3,
-      caption: "Crown melbourne",
+      caption: "Crown Hotel Booking",
       link: "https://www.crownmelbourne.com.au/",
-      text: "Crown is a web template that I created targeting the restaurant and food industry which anyone can use to present their business online.",
+      text: "Crown is a website that I created Ensuring  a robust booking system that allows users to check room availability, make reservations, and manage their bookings online and minimizing page load times..",
     },
     {
       id: 3,
       src: img2,
-      caption: "Boreal coffee clone",
+      caption: "Boreal coffee",
       link: "https://www.borealcoffee.ch/",
-      text: "I re-created the frontend of Boreal Coffee's official web app because I got attracted to their beautiful UI. It was a great experience for me to build the entire frontend.",
+      text: "Boreal Coffee's is a web app where i focused on building the UI to attract customers and ALSO Develop an online ordering system that allows customers to browse the menu and place them for pickup or delivery",
     },
     {
       id: 4,
       src: img4,
-      caption: "Wilsonpor",
+      caption: "Wilsonpor Recuitment form",
       link: "https://www.wilsonlogistics.com/",
-      text: "Wilsonport is a multiservice logistics and transport company and I created their website from scratch using the frontend tools I know.",
+      text: "worked on Wilsonport transport web portal where prospective drivers can submit their applications online. where i Implement document verification processes to ensure the authenticity and validity of submitted documents. Also  Integrate third-party background check services to conduct pre-employment screenings.",
     },
   ];
   return (
