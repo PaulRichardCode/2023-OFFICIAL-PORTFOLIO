@@ -43,29 +43,27 @@ const About = () => {
               {/* about me text */}
               <div className="text-gray-400/80 md:mx-0 md:w-full mx-auto w-11/12 ">
                 <p className="md:mb-6 mb-2 text-sm md:text-base">
-                  Since beginning my journey as a Full-Stack developer 5 years
-                  ago, I’ve done remote work for agencies, consulted for
-                  startups, and collaborated with talented people to create web
-                  products for both business and consumer use.
+                  Throughout my career, I have worked closely with startups
+                  across various industries, leveraging the power of ASP.NET to
+                  develop robust backend systems that support their growth and
+                  scalability objectives.
                   {/* ukihiuuuu */}
                 </p>
 
                 <p className="md:mb-6 mb-2 text-sm md:text-base">
-                  I create successful responsive websites that are fast, easy to
-                  use, and built with best practices. The main area of my
-                  expertise is Full-Stack development,{" "}
+                  My expertise lies in understanding the specific needs of each
+                  startup and crafting solutions that align with their business
+                  goals using Technologies like:
                   <span className="text-cyan-300">
                     {" "}
-                    HTML & CSS, JS, React, C#, ASP.NET, Tailwind, TypeScript
-                    RESTful API, Azure, SQL-Server, entity Framework{" "}
+                    HTML & CSS, JS, React, Angular, C#, ASP.NET CORE MVC, web
+                    api, Tailwind, TypeScript RESTful API, Azure, SQL-Server,
+                    OAuth,
                   </span>{" "}
-                  for building small and medium web apps, custom plugins,
-                  features, animations, and coding interactive layouts.
-                </p>
-                <p className="md:mb-6 mb-2 text-sm md:text-base">
-                  {" "}
-                  I also have experience with popular open-source CMS like
-                  (WordPress, Drupal, Magento, Keystone.js and others) .
+                  For optimizing database performance for high traffic volumes,
+                  implementing secure authentication mechanisms, or designing
+                  scalable microservices architectures as well as user
+                  Interface.
                 </p>
 
                 <p className="md:mb-6 mb-2 text-sm md:text-base">
