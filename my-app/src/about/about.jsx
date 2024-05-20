@@ -73,10 +73,10 @@ const About = () => {
           <div className="text-gray-400/80 md:mx-0 md:w-full mx-auto w-11/12 ">
             <p className="md:mb-6 mb-2 text-sm md:text-base">
               Hello! My name is Richard, and I am a Full-Stack Developer.
-              Specifically with use of React and ASP.NET framework.
-              I enjoy creating things that live on the internet. I
-              would describe myself as a highly skilled professional with a
-              passion for creating beautiful and functional websites.
+              Specifically with use of React and ASP.NET framework. I enjoy
+              creating things that live on the internet. I would describe myself
+              as a highly skilled professional with a passion for creating
+              beautiful and functional websites.
             </p>
             <p className="md:mb-6 mb-2 text-sm md:text-base">
               {" "}

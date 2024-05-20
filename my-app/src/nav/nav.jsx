@@ -94,7 +94,7 @@ const Nav = () => {
                 <a
                   href="#jobs"
                   class="block py-2 pl-3 pr-4 duration-300 text-gray-300 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-cyan-300 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-                  <span className="text-cyan-300">02.</span> Experience
+                  <span className="text-cyan-300">02.</span> Services
                 </a>
               </li>
               <li>
