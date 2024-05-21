@@ -11,12 +11,7 @@ const Link = () => {
     <div className="max-w-2xl fixed z-50">
       <ul className="absolute top-80 left-16">
         <li>
-          <a href="https://github.com/PaulRichardCode" target={"_blank"}>
-            <FiGithub className="text-gray-300/80 text-xl md:block hidden cursor-pointer mb-6 hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/RichC0DE" target={"_blank"}>
+          <a href="https://twitter.com/YourShortEditor" target={"_blank"}>
             <FiTwitter className="text-gray-300/80 text-xl md:block hidden cursor-pointer mb-6 hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
           </a>
         </li>
@@ -33,7 +28,7 @@ const Link = () => {
           </a>
         </li>
         <li>
-          <a href="https://paulrichardevs@gmail.com" target={"_blank"}>
+          <a href="https://framemasterrichard@gmail.com" target={"_blank"}>
             <FiMail className="text-cyan-300/80 text-xl md:block hidden cursor-pointer mb-7 hover:text-gray-300/80 hover:-translate-y-1 hover:transition duration-100" />
           </a>
         </li>

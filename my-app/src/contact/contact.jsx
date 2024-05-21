@@ -89,7 +89,7 @@ const Contact = () => {
               </a>
             </li>
             <li>
-              <a href="https://paulrichardevs@gmail.com" target={"_blank"}>
+              <a href="https://framemasterrichard@gmail.com" target={"_blank"}>
                 <FiMail className="text-cyan-300/80 text-xl block md:hidden cursor-pointer hover:text-gray-300/80 hover:-translate-y-1 hover:transition duration-100" />
               </a>
             </li>

@@ -32,7 +32,6 @@ const App = () => {
           <Link />
           <Home />
           <About />
-          <Jobs />
           <Project />
           <Contact />
 

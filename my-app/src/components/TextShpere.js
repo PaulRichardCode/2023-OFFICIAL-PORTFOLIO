@@ -8,19 +8,19 @@ const TextSphere = () => {
   useEffect(() => {
     const container = containerRef.current;
     const texts = [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "ASP.NET",
-      "React",
-      "C#",
-      "Restful API",
-      "SQL-Server",
-      "TypeScript",
-      "Tailwind",
-      "NodeJs",
-      "Azure",
-      "Angular",
+      "Motion Graphics",
+      "After Effects",
+      "Premiere Pro",
+      "Final Cut Pro",
+      "Capcut",
+      "Abobe Photoshop",
+      "Davinci Resolve",
+      "Tiktok",
+      "Youtube",
+      "Color Grading",
+      "Fb Ads",
+      "Documentaries",
+      "Transitions",
     ];
     const options = {
       radius: 150,
