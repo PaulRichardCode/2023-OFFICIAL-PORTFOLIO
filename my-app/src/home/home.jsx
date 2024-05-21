@@ -17,7 +17,7 @@ const Home = () => {
         muted
         loop
         src={Black}
-        className="md:opacity-60 opacity-40 md:py-16 md:w-full md:h-full h-full object-cover mt-10">
+        className="md:opacity-30 opacity-40 md:py-16 md:w-full md:h-full h-full object-cover mt-10">
         {" "}
       </video>
 
