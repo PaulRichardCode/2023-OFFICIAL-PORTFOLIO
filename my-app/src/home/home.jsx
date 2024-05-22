@@ -50,7 +50,7 @@ const Home = () => {
           <p className="md:text-base text-xs pl-1 text-cyan-50 md:font-normal tracking-widest font-normal md:mb-6 lg:mb-7 mb-10 md:w-1/3 mx-auto">
             CRAFTING STORIES, FRAME BY FRAME - YOUR VISION, PERFECTED.
           </p>
-          <div className="md:w-1/6 w-1/2 flex justify-around md:mx-auto mx-auto">
+          <div className="md:w-2/5 w-1/2 flex justify-around md:mx-auto mx-auto">
             <a
               href="#contact"
               type="button"
