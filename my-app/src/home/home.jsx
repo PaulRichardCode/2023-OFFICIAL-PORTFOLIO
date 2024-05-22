@@ -40,7 +40,7 @@ const Home = () => {
             </span>
           </p>
 
-          <h1 className="lg:text-9xl md:text-6xl text-5xl md:mb-6 mb-5 text-center text-cyan-400 font-thin lg:mb-3 md:font-thin">
+          <h1 className="lg:text-8xl md:text-6xl text-5xl md:mb-6 mb-5 text-center text-cyan-400 font-thin lg:mb-3 md:font-thin">
             <div className="lg:text-7xl">
               <span className="text-gray-300">I</span> AM <br />{" "}
             </div>
