@@ -52,7 +52,7 @@ const Home = () => {
           </p>
           <div className="md:w-1/4 w-1/2 flex justify-around md:mx-auto mx-auto">
             <a
-              href="#contact"
+              href="#project"
               type="button"
               class="text-cyan-300 duration-300 md:text-sm text-xs border hover:shadow hover:shadow-cyan-300 hover:transition-shadow tracking-widest border-cyan-300  focus:ring-4 focus:outline-none focus:ring-blue-300 font-light md:px-3 px-3 md:py-3 py-2 text-center mr-3 md:mr-0 ">
               WORKS
