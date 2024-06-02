@@ -12,7 +12,7 @@ import vid8 from "../assets/videos/vid5.mp4";
 import vid9 from "../assets/videos/vid1.mp4";
 import vid10 from "../assets/videos/vid9.mp4";
 import vid11 from "../assets/videos/vid11.mp4";
-import vid12 from "../assets/videos/vid12.mp4";
+import vid12 from "../assets/videos/vid2.mp4";
 
 const Project = () => {
   const [selectedVideo, setSelectedVideo] = useState(null);
