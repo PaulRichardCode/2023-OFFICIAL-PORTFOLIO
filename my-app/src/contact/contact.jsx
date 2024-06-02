@@ -65,12 +65,7 @@ const Contact = () => {
           {" "}
           <ul className="flex justify-around items-center">
             <li>
-              <a href="https://github.com/PaulRichardCode" target={"_blank"}>
-                <FiGithub className="text-gray-300/80 text-xl block md:hidden cursor-pointer  hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/RichC0DE" target={"_blank"}>
+              <a href="https://twitter.com/YourShortEditor" target={"_blank"}>
                 <FiTwitter className="text-gray-300/80 text-xl block md:hidden cursor-pointer  hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
               </a>
             </li>
