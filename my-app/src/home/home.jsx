@@ -12,15 +12,6 @@ const Home = () => {
   };
   return (
     <div className="relative md:w-9/12 md:flex md:mx-auto md:justify-center w-full h-96 md:mb-0 mb-40 md:h-screen">
-      <video
-        autoPlay
-        muted
-        loop
-        src={Black}
-        className="md:opacity-30 opacity-40 md:py-16 md:w-full md:h-full h-full object-cover mt-10">
-        {" "}
-      </video>
-
       {/* Home */}
 
       {/*  z-10 absolute  md:left-24 lg:left-44 left-5 md:flex md:items-center md:justify-center text-left */}
