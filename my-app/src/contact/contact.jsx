@@ -78,7 +78,7 @@ const Contact = () => {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/richardpaul06/"
+                href="https://www.instagram.com/paulrichardedits/"
                 target={"_blank"}>
                 <FiInstagram className="text-gray-300/80 text-xl block md:hidden cursor-pointer  hover:text-cyan-300/80 hover:-translate-y-1 hover:transition duration-100" />
               </a>
