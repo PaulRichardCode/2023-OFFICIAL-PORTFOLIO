@@ -1,7 +1,4 @@
 import React from "react";
-import Black from "../assets/videobgEdit.mp4";
-import Sunset from "../assets/sunset.mp4";
-import Handshake from "../assets/shakinghands.png";
 import { motion, useAnimation } from "framer-motion";
 import { useEffect } from "react";
 
