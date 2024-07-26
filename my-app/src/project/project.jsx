@@ -10,7 +10,7 @@ import vid6 from "../assets/videos/Video Portfolio 1.mp4";
 import vid7 from "../assets/videos/vid7.mp4";
 import vid8 from "../assets/videos/vid8.mp4";
 import vid9 from "../assets/videos/vid111.mp4";
-import vid10 from "../assets/videos/UpperHand Agency.mp4";
+import vid10 from "../assets/videos/Video Portfolio #2.mp4";
 import vid11 from "../assets/videos/vid11.mp4";
 import vid12 from "../assets/videos/vid12.mp4";
 
