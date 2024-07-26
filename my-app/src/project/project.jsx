@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import vid1 from "../assets/videos/22";
+import vid1 from "../assets/videos/vid11.mp4";
 import vid2 from "../assets/videos/MyPortfolio2024 compressed.mp4";
 import vid3 from "../assets/videos/vid33.mp4";
 import vid4 from "../assets/videos/vid44.mp4";
