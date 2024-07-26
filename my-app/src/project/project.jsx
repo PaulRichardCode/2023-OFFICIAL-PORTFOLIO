@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import vid1 from "../assets/videos/MyPortfolio2024(1).mp4";
+import vid1 from "../assets/videos/22";
 import vid2 from "../assets/videos/MyPortfolio2024 compressed.mp4";
 import vid3 from "../assets/videos/vid33.mp4";
 import vid4 from "../assets/videos/vid44.mp4";
 import vid5 from "../assets/videos/vid55.mp4";
 import vid6 from "../assets/videos/Video Portfolio 1.mp4";
-import vid7 from "../assets/videos/vid22.mp4";
+import vid7 from "../assets/videos/vid7.mp4";
 import vid8 from "../assets/videos/vid8.mp4";
 import vid9 from "../assets/videos/vid111.mp4";
 import vid10 from "../assets/videos/UpperHand Agency.mp4";
