@@ -7,7 +7,7 @@ import vid3 from "../assets/videos/vid33.mp4";
 import vid4 from "../assets/videos/vid44.mp4";
 import vid5 from "../assets/videos/vid55.mp4";
 import vid6 from "../assets/videos/Video Portfolio 1.mp4";
-import vid7 from "../assets/videos/vid7.mp4";
+import vid7 from "../assets/videos/vid22.mp4";
 import vid8 from "../assets/videos/vid8.mp4";
 import vid9 from "../assets/videos/vid111.mp4";
 import vid10 from "../assets/videos/UpperHand Agency.mp4";
