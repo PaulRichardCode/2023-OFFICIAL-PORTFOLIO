@@ -33,18 +33,18 @@ const Project = () => {
   };
 
   const videos = [
-    { id: 1, src: vid1, caption: "Dopefolio" },
-    { id: 2, src: vid2, caption: "Crown Hotel Booking" },
-    { id: 3, src: vid3, caption: "Boreal Coffee" },
-    { id: 4, src: vid4, caption: "Wilsonport Recruitment Portal" },
-    { id: 5, src: vid5, caption: "Wilsonport Recruitment Portal" },
-    { id: 6, src: vid6, caption: "Wilsonport Recruitment Portal" },
-    { id: 7, src: vid7, caption: "Wilsonport Recruitment Portal" },
-    { id: 8, src: vid8, caption: "Wilsonport Recruitment Portal" },
-    { id: 9, src: vid9, caption: "Wilsonport Recruitment Portal" },
-    { id: 10, src: vid10, caption: "Wilsonport Recruitment Portal" },
-    { id: 11, src: vid11, caption: "Wilsonport Recruitment Portal" },
-    { id: 12, src: vid12, caption: "Wilsonport Recruitment Portal" },
+    { id: 1, src: vid1, caption: "Podcast Edit" },
+    { id: 2, src: vid2, caption: "Meet me Paul Richard" },
+    { id: 3, src: vid3, caption: "Podcast edit" },
+    { id: 4, src: vid4, caption: "Podcast edit" },
+    { id: 5, src: vid5, caption: "Client Edit Mr Sgaire" },
+    { id: 6, src: vid6, caption: "Client edit upperhand" },
+    { id: 7, src: vid7, caption: "Testimonial video" },
+    { id: 8, src: vid8, caption: "Real estate ads edit" },
+    { id: 9, src: vid9, caption: "Medical ads" },
+    { id: 10, src: vid10, caption: "Simple motion graphics" },
+    { id: 11, src: vid11, caption: "Youtube video showreel1" },
+    { id: 12, src: vid12, caption: "Youtube video showreel2" },
   ];
 
   const openModal = (video) => {
