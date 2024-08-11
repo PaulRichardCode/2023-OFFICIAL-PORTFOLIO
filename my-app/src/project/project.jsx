@@ -83,6 +83,17 @@ const Project = () => {
           ))}
         </motion.div>
 
+        {/* View More Button */}
+        <div className="flex justify-center mt-10">
+          <a
+            href="https://drive.google.com/drive/folders/1pMDdgXa20AsYOaGITGSNWI9VCrrfCM-Z?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-cyan-300 hover:bg-cyan-400 text-white font-semibold py-2 px-4 rounded-full">
+            View More
+          </a>
+        </div>
+
         {selectedVideo && (
           <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
             <div className="relative w-full max-w-3xl">
