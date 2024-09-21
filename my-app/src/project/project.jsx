@@ -8,6 +8,9 @@ import vid5 from "../assets/videos/vidSgaire.mp4";
 import vid6 from "../assets/videos/Video Portfolio 1.mp4";
 import vid7 from "../assets/videos/vid11.mp4";
 
+import vid11 from "../assets/videos/vid7.mp4";
+import vid12 from "../assets/videos/vid8.mp4";
+
 const Project = () => {
   const [selectedVideo, setSelectedVideo] = useState(null);
   const control = useAnimation();
