@@ -30,16 +30,12 @@ const Project = () => {
   };
 
   const videos = [
-    { id: 1, src: vid1, caption: "Podcast Edit" },
     { id: 2, src: vid2, caption: "Meet me Paul Richard" },
-    { id: 3, src: vid3, caption: "Podcast edit" },
-    { id: 4, src: vid4, caption: "Podcast edit" },
+
     { id: 5, src: vid5, caption: "Client Edit Mr Sgaire" },
     { id: 6, src: vid6, caption: "Client edit upperhand" },
     { id: 7, src: vid7, caption: "Testimonial video" },
-    { id: 8, src: vid8, caption: "Real estate ads edit" },
-    { id: 9, src: vid9, caption: "Medical ads" },
-    { id: 10, src: vid10, caption: "Simple motion graphics" },
+
     { id: 11, src: vid11, caption: "Youtube video showreel1" },
     { id: 12, src: vid12, caption: "Youtube video showreel2" },
   ];
