@@ -1,43 +1,56 @@
 import React, { useState, useEffect } from "react";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-
-import vid2 from "../assets/videos/MyPortfolio2024 compressed.mp4";
+import { motion } from "framer-motion";
 
 import vid5 from "../assets/videos/vidSgaire.mp4";
-import vid6 from "../assets/videos/Video Portfolio 1.mp4";
 import vid7 from "../assets/videos/vid11.mp4";
-
-import vid11 from "../assets/videos/vid7.mp4";
-import vid12 from "../assets/videos/vid8.mp4";
 
 const Project = () => {
   const [selectedVideo, setSelectedVideo] = useState(null);
-  const control = useAnimation();
-  const [ref, inView] = useInView();
-
-  useEffect(() => {
-    if (inView) {
-      control.start("visible");
-    } else {
-      control.start("hidden");
-    }
-  }, [control, inView]);
+  const [hasAnimated, setHasAnimated] = useState(false);
 
   const boxVariant = {
-    visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
-    hidden: { opacity: 0, x: -100 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        duration: 0.6,
+        ease: "easeOut",
+        staggerChildren: 0.15,
+      },
+    },
+    hidden: {
+      opacity: 0,
+      scale: 0.9,
+      transition: { duration: 0.3 },
+    },
   };
 
-  const videos = [
-    { id: 2, src: vid2, caption: "Meet me Paul Richard" },
-
+  const shortFormVideos = [
     { id: 5, src: vid5, caption: "Client Edit Mr Sgaire" },
-    { id: 6, src: vid6, caption: "Client edit upperhand" },
+    {
+      id: 6,
+      src: vid7,
+      caption: "Google Drive Short-form Video",
+    }, // Playable Google Drive video link
     { id: 7, src: vid7, caption: "Testimonial video" },
+  ];
 
-    { id: 11, src: vid11, caption: "Youtube video showreel1" },
-    { id: 12, src: vid12, caption: "Youtube video showreel2" },
+  const longFormVideos = [
+    {
+      id: 2,
+      url: "https://youtu.be/dUKYHjxl8IU?si=N_Fo6uZGZS7BDg7E?autoplay=1",
+      caption: "CRIME",
+    },
+    {
+      id: 11,
+      url: "https://www.youtube.com/embed/fXoDzNSmib0?autoplay=1",
+      caption: "DOCUMENTARY",
+    },
+    {
+      id: 12,
+      url: "https://www.youtube.com/embed/SLgIIafTI9U?autoplay=1",
+      caption: "FINANCE",
+    },
   ];
 
   const openModal = (video) => {
@@ -56,30 +69,96 @@ const Project = () => {
           Work & Projects
           <span className="lg:w-16 md:bg-gray-300/70 md:h-px md:ml-8 md:opacity-40"></span>
         </h1>
+
+        {/* Short-form Content Section */}
+        <h2 className="text-xl text-cyan-300 mb-4">Short-form Content</h2>
         <motion.div
-          ref={ref}
+          onViewportEnter={() => !hasAnimated && setHasAnimated(true)}
           variants={boxVariant}
           initial="hidden"
-          animate={control}
+          animate={hasAnimated ? "visible" : "hidden"}
           className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4">
-          {videos.map((video) => (
-            <div key={video.id} className="flex justify-center">
-              <video
-                controls
-                muted
-                src={video.src}
-                alt={video.caption}
-                className="w-full h-56 md:h-72 lg:h-80 cursor-pointer"
-                onClick={() => openModal(video.src)}
+          {shortFormVideos.map((video) => (
+            <motion.div
+              key={video.id}
+              className="flex justify-center"
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{
+                duration: 0.6,
+                ease: "easeOut",
+                delay: video.id * 0.1,
+              }}>
+              {video.url ? (
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src={video.url}
+                  frameBorder="0"
+                  allow="autoplay; encrypted-media"
+                  allowFullScreen
+                  className="w-full h-56 md:h-72 lg:h-80 cursor-pointer rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+                />
+              ) : (
+                <video
+                  controls
+                  muted
+                  src={video.src}
+                  alt={video.caption}
+                  className="w-full h-56 md:h-72 lg:h-80 cursor-pointer rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+                  onClick={() => openModal(video.src)}
+                />
+              )}
+            </motion.div>
+          ))}
+        </motion.div>
+
+        {/* More Button for Short-form Content */}
+        <div className="flex justify-center mt-5">
+          <a
+            href="https://drive.google.com/drive/folders/your_drive_folder_id?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-cyan-300 hover:bg-cyan-400 text-white font-semibold py-2 px-4 rounded-full">
+            More Short-form Videos
+          </a>
+        </div>
+
+        {/* Long-form Content Section */}
+        <h2 className="text-xl text-cyan-300 mb-4 mt-8">Long-form Content</h2>
+        <motion.div
+          variants={boxVariant}
+          initial="hidden"
+          animate="visible"
+          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-4">
+          {longFormVideos.map((video) => (
+            <motion.div
+              key={video.id}
+              className="flex justify-center"
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{
+                duration: 0.6,
+                ease: "easeOut",
+                delay: video.id * 0.1,
+              }}>
+              <iframe
+                width="100%"
+                height="100%"
+                src={video.url}
+                frameBorder="0"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+                className="w-full h-56 md:h-72 lg:h-80 cursor-pointer rounded-lg shadow-lg hover:shadow-xl transition-shadow"
               />
-            </div>
+            </motion.div>
           ))}
         </motion.div>
 
         {/* View More Button */}
         <div className="flex justify-center mt-10">
           <a
-            href="https://drive.google.com/drive/folders/11aDKQKgEqjwcY12WuLX0pjpMzyj_lhRx?usp=drive_link"
+            href="https://drive.google.com/file/d/1au58QLPrtA7eEbcnpVm_siaiSINpBszv/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-cyan-300 hover:bg-cyan-400 text-white font-semibold py-2 px-4 rounded-full">
