@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import vid1 from "../assets/videos/Portfolio video your mouth social.mp4";
+import vid2 from "../assets/videos/MyPortfolio2024 compressed.mp4";
 
-import vid5 from "../assets/videos/vidSgaire.mp4";
-import vid7 from "../assets/videos/vid11.mp4";
+import vid7 from "../assets/videos/UpperHand Agency.mp4";
 
 const Project = () => {
   const [selectedVideo, setSelectedVideo] = useState(null);
@@ -26,10 +27,10 @@ const Project = () => {
   };
 
   const shortFormVideos = [
-    { id: 5, src: vid5, caption: "Client Edit Mr Sgaire" },
+    { id: 5, src: vid2, caption: "Client Edit Mr Sgaire" },
     {
       id: 6,
-      src: vid7,
+      src: vid1,
       caption: "Google Drive Short-form Video",
     }, // Playable Google Drive video link
     { id: 7, src: vid7, caption: "Testimonial video" },
