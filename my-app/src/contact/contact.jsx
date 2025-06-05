@@ -88,6 +88,11 @@ const Contact = () => {
                 <FiMail className="text-cyan-300/80 text-xl block md:hidden cursor-pointer hover:text-gray-300/80 hover:-translate-y-1 hover:transition duration-100" />
               </a>
             </li>
+            <li>
+              <a href="https://www.tiktok.com/@paulrichard.edits" target={"_blank"}>
+                <FiTiktok className="text-cyan-300/80 text-xl block md:hidden cursor-pointer hover:text-gray-300/80 hover:-translate-y-1 hover:transition duration-100" />
+              </a>
+            </li>
           </ul>
         </div>
       </motion.div>
