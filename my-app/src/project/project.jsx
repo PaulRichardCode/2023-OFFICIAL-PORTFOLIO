@@ -39,7 +39,7 @@ const Project = () => {
   const longFormVideos = [
     {
       id: 2,
-      url: "https://youtu.be/dUKYHjxl8IU?si=N_Fo6uZGZS7BDg7E?autoplay=1",
+      url: "https://www.youtube.com/embed/dc1f9YCHudg?autoplay=1",
       caption: "CRIME",
     },
     {
